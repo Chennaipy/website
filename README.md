@@ -1,7 +1,7 @@
 # [Chennaipy](http://chennaipy.org/)
 
-This is the repo for the Chennaipy, Chennai Python user group's
-website [http://chennaipy.org](http://chennaipy.org).
+This is the repo for the Chennai Python User Group's website
+[http://chennaipy.org](http://chennaipy.org).
 
 ## Find us
 
