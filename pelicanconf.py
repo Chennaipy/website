@@ -18,8 +18,9 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),)
+LINKS = (('ILUGC', 'http://ilugc.in/'),
+         ('Python', 'http://python.org/'),
+         ('PSSI', 'http://python.org.in/'),)
 
 # Social widget
 SOCIAL = (('Github', 'https://github.com/chennaipy/'),)
