@@ -3,10 +3,10 @@ python:
   - "2.7"
 install: 
   - pip install -r requirements.txt --use-mirrors
-  - sudo apt-get install sshpass rsync
+  - sudo apt-get install openssh-client sshpass rsync
 script: make publish
 env: 
   global: 
     secure: cAOEWD1fMXiL+NUQthZsYNQ02/CbhU3d2pbvMDRiDVYbJJ8E3AbpXU6s5nwmCwC6uz0BNBIG/vYLb4rB6DY6HCqndQdqypGj4D5itFF5IsSNFZBtTBsvrY6uekDc9P+318ee2QCkc1CZozR+CVgClm/7nWDyrnM/oVXL/uhVuos=
 after_success: 
-  - "make rsync_noninteractive_upload"
+  - "make ssh_noninteractive_upload"
