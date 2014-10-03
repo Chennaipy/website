@@ -40,5 +40,6 @@ STATIC_PATHS = ["images"]
 
 MENUITEMS = [
     ("Events", "tag/events.html"),
-    ("Meeting Minutes", "tag/meeting-minutes.html")
+    ("Meeting Minutes", "tag/meeting-minutes.html"),
+    ("Credits", "pages/credits.html"),
 ]
