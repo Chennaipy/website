@@ -1,5 +1,7 @@
 # [Chennaipy](http://chennaipy.org/)
 
+![](https://travis-ci.org/Chennaipy/website.svg?branch=master)
+
 This is the repo for the Chennai Python User Group's website
 [http://chennaipy.org](http://chennaipy.org).
 
