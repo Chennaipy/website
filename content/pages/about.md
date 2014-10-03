@@ -7,8 +7,7 @@ Chennaipy is Python user-group, where Pythonistas in and around
 Chennai come together to share their knowledge and to contribute to
 the promotion of Python.
 
-Mailing List
-============
+### Mailing List
 
 We have a mailing list
 [chennaipy@python.org](https://mail.python.org/mailman/listinfo/chennaipy).
@@ -20,8 +19,7 @@ about conducting local events, get notifications about upcoming meets,
   * [View the Archives](https://mail.python.org/pipermail/chennaipy/)
 
 
-Meetup
-======
+### Meetup
 
 We have a [Meetup group](http://www.meetup.com/chennaipy). Join the
 Chennaipy meetup group, to get meeting notifications, and RSVP to

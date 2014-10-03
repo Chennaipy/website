@@ -29,3 +29,13 @@ DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+THEME = "theme"
+COVER_IMG_URL = "/images/rangoli.jpg"
+
+STATIC_PATHS = ["images"]
+
+MENUITEMS = [
+    ("Events", "tag/events.html"),
+    ("Meeting Minutes", "tag/meeting-minutes.html")
+]

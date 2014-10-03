@@ -1,12 +1,11 @@
 Title: August Meet Minutes
 Date: 2014-08-27 02:05
-Category: Meeting Minutes
+Tags: Meeting Minutes
 
 This time around we had about 14 members attending the meet. The meet
 started with the first talk -- "Unit Tests with Nose".
 
-Unit Tests with Nose
-====================
+## Unit Tests with Nose
 
 Vengatesh presented the various features of nose framework, comparing
 them with the 'unittest' module present in the standard library. He
@@ -20,8 +19,7 @@ framework, and demonstrated the usage of the coverage plugin.
 That brought us almost to the end of the talk, the next talk was "API
 Documenation with Sphinx and Napoleon".
 
-API Documentation with Sphinx and Napoleon
-==========================================
+## API Documentation with Sphinx and Napoleon
 
 Aadhithyan explained the usage of Sphinx and Napoleon. He showed:
 
@@ -44,8 +42,7 @@ readable.
 
 That brought us to the end of the talk. The next talk was on "Brython".
 
-Brython
-=======
+## Brython
 
 Vijay started off by explaining that Brython was a Python to Javascript
 compiler written in Javascript. This allowed Python programs to be
@@ -90,8 +87,7 @@ He concluded his talk with some real world use-cases for Brython. One
 of the use-cases he showed was the Reeborg's World
 http://reeborg.ca/index_en.html
 
-Asciinema
-=========
+## Asciinema
 
 Rengaraj did a quick lightning talk on Asciinema, an open source
 solution for recording terminal sessions. Rengaraj recorded a terminal
@@ -104,8 +100,7 @@ capture program does. The advantage:
   2. Download and playback is fast.
   3. No blurring in the playback.
 
-Merger with Pych
-================
+## Merger with Pych
 
 Vijay then provided an update on the merger with Pych. It seems that
 Pych, was conceived to develop open source software using Python. And
