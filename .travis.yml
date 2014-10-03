@@ -9,4 +9,5 @@ env:
   global: 
     secure: cAOEWD1fMXiL+NUQthZsYNQ02/CbhU3d2pbvMDRiDVYbJJ8E3AbpXU6s5nwmCwC6uz0BNBIG/vYLb4rB6DY6HCqndQdqypGj4D5itFF5IsSNFZBtTBsvrY6uekDc9P+318ee2QCkc1CZozR+CVgClm/7nWDyrnM/oVXL/uhVuos=
 after_success: 
+  - echo -e "Host chennaipy.org\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
   - "make ssh_noninteractive_upload"
