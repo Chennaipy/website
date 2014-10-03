@@ -96,7 +96,7 @@ website. The recording, it seems, captures the VT100 escape sequences
 instead of the on-screen pixels, which is what a conventional screen
 capture program does. The advantage:
 
-  1. Uploads a terribly fast.
+  1. Uploads are terribly fast.
   2. Download and playback is fast.
   3. No blurring in the playback.
 
