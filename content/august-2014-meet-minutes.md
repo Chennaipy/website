@@ -17,7 +17,7 @@ packages. He then listed the plugins available with the nose
 framework, and demonstrated the usage of the coverage plugin.
 
 That brought us almost to the end of the talk, the next talk was "API
-Documenation with Sphinx and Napoleon".
+Documentation with Sphinx and Napoleon".
 
 ## API Documentation with Sphinx and Napoleon
 
@@ -64,7 +64,7 @@ the "Hello World" message appeared in the Javascript console.
     </html>
 
 He then modified the program step by step adding more and more
-features, till it became an arthimetic quiz.
+features, till it became an arithmetic quiz.
 
   Step 1. Display the "Hello World" message within the HTML page,
   instead of the Javascript console.
