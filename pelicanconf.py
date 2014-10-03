@@ -23,7 +23,10 @@ LINKS = (('ILUGC', 'http://ilugc.in/'),
          ('PSSI', 'http://python.org.in/'),)
 
 # Social widget
-SOCIAL = (('Github', 'https://github.com/chennaipy/'),)
+SOCIAL = (('github', 'https://github.com/chennaipy/'),
+          ('group', 'http://meetup.com/chennaipy/'),
+          ('comments', 'https://mail.python.org/mailman/listinfo/chennaipy'),
+          ('rss', 'feeds/all.atom.xml'),)
 
 DEFAULT_PAGINATION = False
 
