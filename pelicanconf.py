@@ -43,3 +43,9 @@ MENUITEMS = [
     ("Meeting Minutes", "tag/meeting-minutes.html"),
     ("Credits", "pages/credits.html"),
 ]
+
+#
+# Use the article's filename instead of the article's title for the
+# URL. This way conflict due to similar titles can be avoided
+#
+SLUGIFY_SOURCE = "basename"
