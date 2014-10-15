@@ -2,6 +2,10 @@ Title: October Meetup
 Date: 2014-10-15 05:35
 Tags: Events
 
+<a style="float:right;" class="pure-button"
+href="http://www.meetup.com/Chennaipy/events/211201242/"><i class="fa
+fa-check-square-o"></i> RSVP on Meetup</a>
+
 ## Date & Time
 
 25th October  
