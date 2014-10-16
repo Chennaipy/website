@@ -6,6 +6,8 @@ AUTHOR = u'Vijay Kumar B.'
 SITENAME = u'Chennaipy'
 SITEURL = ''
 
+SITE_LICENSE = 'Text is available under the Creative Commons Attribution-ShareAlike License.'
+
 PATH = 'content'
 
 TIMEZONE = 'Asia/Kolkata'
