@@ -28,7 +28,8 @@ LINKS = (('ILUGC', 'http://ilugc.in/'),
 SOCIAL = (('github', 'https://github.com/chennaipy/'),
           ('group', 'http://meetup.com/chennaipy/'),
           ('comments', 'https://mail.python.org/mailman/listinfo/chennaipy'),
-          ('rss', 'feeds/all.atom.xml'),)
+          ('rss', 'feeds/all.atom.xml'),
+          ('twitter', 'http://twitter.com/chennaipy'),)
 
 DEFAULT_PAGINATION = False
 
