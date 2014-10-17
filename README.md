@@ -11,6 +11,7 @@ site's theme is based on [Pure Pelican Theme](https://github.com/PurePelicanThem
 
 * [Meetup.com](http://www.meetup.com/chennaipy/)
 * [Mailing list](https://mail.python.org/mailman/listinfo/chennaipy)
+* [Twitter](http://twitter.com/chennaipy)
 
 ## Setup
 
