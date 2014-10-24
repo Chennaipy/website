@@ -42,6 +42,8 @@ The talk will cover the following topics:
  * Tools and modules involved in Test Automation.
  * Example: Automation of Routers and how was it accomplished.
 
+Slides: [http://www.slideshare.net/SRKKrishnan/python-in-test-automation](http://www.slideshare.net/SRKKrishnan/python-in-test-automation)
+
 ### Creating Command Line Interface using Docopt
 Speaker: Rengaraj
 
@@ -50,7 +52,10 @@ usage documentation is written first, and passed on to Docopt, which
 uses this to create the parser! This talk will be a short talk on
 using Docopt.
 
+Slides: [https://googledrive.com/host/0B0UY_FzeTkMUbktGdTFaUTc1M1k/docopt.html](https://googledrive.com/host/0B0UY_FzeTkMUbktGdTFaUTc1M1k/docopt.html)
+
 ### Building Embedded Systems with Twisted
+
 Speaker: Vijay Kumar
 
 Twisted is an asynchronous networking engine written in Python. This
@@ -58,6 +63,8 @@ talk will show how we, at Zilogic Systems, built an automated library
 management system, using Twisted and an ARM board running Emdebian
 Grip. The system uses an RFID reader for user authentication, reed
 switches to monitor the shelves and a buzzer to raise alerts.
+
+Slides: [https://speakerdeck.com/bravegnu/building-embedded-systems-with-twisted](https://speakerdeck.com/bravegnu/building-embedded-systems-with-twisted)
 
 If you would like to give a lightning talk, just come prepared, we
 will be able to accommodate you.
