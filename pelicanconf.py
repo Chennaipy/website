@@ -37,9 +37,9 @@ DEFAULT_PAGINATION = False
 #RELATIVE_URLS = True
 
 THEME = "theme"
-COVER_IMG_URL = "/images/rangoli.jpg"
+COVER_IMG_URL = "/static/images/rangoli.jpg"
 
-STATIC_PATHS = ["images", "static/custom.css"]
+STATIC_PATHS = ["static"]
 
 MENUITEMS = [
     ("Events", "tag/events.html"),
@@ -53,4 +53,4 @@ MENUITEMS = [
 #
 SLUGIFY_SOURCE = "basename"
 
-CUSTOM_CSS = "static/custom.css"
+CUSTOM_CSS = "static/css/custom.css"
