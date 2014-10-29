@@ -37,9 +37,9 @@ DEFAULT_PAGINATION = False
 #RELATIVE_URLS = True
 
 THEME = "theme"
-COVER_IMG_URL = "/images/rangoli.jpg"
+COVER_IMG_URL = "/static/images/rangoli.jpg"
 
-STATIC_PATHS = ["images"]
+STATIC_PATHS = ["static"]
 
 MENUITEMS = [
     ("Events", "tag/events.html"),
@@ -52,3 +52,5 @@ MENUITEMS = [
 # URL. This way conflict due to similar titles can be avoided
 #
 SLUGIFY_SOURCE = "basename"
+
+CUSTOM_CSS = "static/css/custom.css"

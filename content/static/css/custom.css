@@ -1,0 +1,21 @@
+/*
+ * This is the custom CSS for the chennaipy.org website.
+ * The cp- prefix is used for classes defined over here.
+ */
+
+/*
+ * Used in the front page, to display a icon grid, with information and links.
+ */
+.cp-grid-sect {
+    text-align: center;
+    padding: 1em;
+}
+
+/*
+ * Used in the front page, to highlight an upcoming event.
+ */
+.cp-info-box {
+    border: 3px solid #99f;
+    padding: 1em 1em;
+    border-radius: 1em;
+}
