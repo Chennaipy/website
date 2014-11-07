@@ -37,7 +37,7 @@ DEFAULT_PAGINATION = False
 #RELATIVE_URLS = True
 
 THEME = "theme"
-COVER_IMG_URL = "/static/images/rangoli.jpg"
+COVER_IMG_URL = "/static/images/vkottam.jpg"
 
 STATIC_PATHS = ["static"]
 
