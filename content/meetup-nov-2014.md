@@ -13,7 +13,13 @@ fa-check-square-o"></i> RSVP on Meetup</a>
 
 ## Venue
 
-FIXME: Yet to be finalized.
+Classroom No 2,  
+Aerospace Engineering,  
+Near Gajendra Circle,  
+IIT Madras, Guindy,  
+Chennai  
+
+Location map: [http://bit.ly/iitm-aero](http://bit.ly/iitm-aero)
 
 ## Schedule
 
