@@ -11,7 +11,8 @@ the promotion of Python.
 NOTE: Upcoming event template, update and uncomment
 -->
 <div class="cp-info-box">
-<b>Upcoming Event:</b> November Meetup. <a href="http://www.meetup.com/Chennaipy/events/217328422/">Details ...</a>
+<b>Upcoming Event:</b> November Meetup. <a
+href="/meetup-nov-2014.html">Read More ...</a>
 </div>
 
 <div class="pure-g-r">
