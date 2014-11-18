@@ -15,7 +15,7 @@
  * Used in the front page, to highlight an upcoming event.
  */
 .cp-info-box {
-    border: 3px solid #99f;
+    border-top: 3px solid #99f;
+    border-bottom: 3px solid #99f;
     padding: 1em 1em;
-    border-radius: 1em;
 }
