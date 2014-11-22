@@ -7,9 +7,7 @@ The theme is based on the Pure Pelican Theme hosted at
 
 ### Sidebar Image
 
-The following sidebar image is by McKay Savage, and is hosted on
-flickr at
-[https://www.flickr.com/photos/mckaysavage/2576736293/in/set-72157605017404145](https://www.flickr.com/photos/mckaysavage/2576736293/in/set-72157605017404145).
+The following sidebar image seems to be by [Surajram](http://en.wikipedia.org/wiki/User:surajram?rdfrom=commons:User:Surajram)
+and is hosted on Wikimedia [here](http://upload.wikimedia.org/wikipedia/commons/7/71/Valluvar_Kottam_terrace_reflection.JPG)
 
-![rangoli
-photo](https://farm4.staticflickr.com/3170/2576736293_763dd1976a_m_d.jpg)
+![Valluvar Kottam](http://upload.wikimedia.org/wikipedia/commons/7/71/Valluvar_Kottam_terrace_reflection.JPG)
