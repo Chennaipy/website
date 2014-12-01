@@ -8,7 +8,7 @@ classroom full of people.
 Due to technical difficulties, the first talk(Introduction to
 Selenium) has been postponed to the next meetup.
 
-## A gentle introduction to Generators and Co-routines - Kiran Gangadharan
+## [A gentle introduction to Generators and Co-routines](https://speakerdeck.com/kirang89/a-gentle-introduction-to-generators-and-coroutines) - [Kiran Gangadharan](http://kirang.in/)
 
 - Explains what makes a generator function different from that of any
   normal function and why/how they should be used.
@@ -22,20 +22,19 @@ Selenium) has been postponed to the next meetup.
 - A few students trying out the language.
 - Our guest, Nathan, a Core contributor to Sage[1].
 
-## Introduction to SQLAlchemy - Shrayas Rajagopal
+## [Introduction to SQLAlchemy](https://speakerdeck.com/shrayasr/introduction-to-sqlalchemy-orms) - [Shrayas Rajagopal](https://github.com/shrayasr)
 
 - What is an ORM ? How does it help ?
 - Explains why ORM is important and how it helps you to deal with
   databases
-- Advantages and Disadvantages of ORM's (Leaky Abstractions-JS)
+- Advantages and Disadvantages of ORM's [Leaky Abstractions-JS](http://www.joelonsoftware.com/articles/LeakyAbstractions.html)
 - dbapi
-- A demo using iPython notebook to illustrate the use of sqlalchemy
-
+- A demo using [iPython notebook to illustrate the use of sqlalchemy](http://nbviewer.ipython.org/github/shrayasr/talks/blob/master/sqlalchemy-orms-chennaipy-nov2014/Demo.ipynb).
 
 Vijay reminds the audience about our website[2] and
 mailing list.
 
-## Fun with Pandas - Sharmila Gopirajan
+## [Fun with Pandas](http://nbviewer.ipython.org/github/sharmi/crunchbase_analysis/tree/master/) - [Sharmila Gopirajan](http://www.minvolai.com/blog/)
 
 - 1st half - What Pandas is all about
 - data structures and common operations
