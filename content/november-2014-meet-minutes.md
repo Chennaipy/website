@@ -20,7 +20,7 @@ Selenium) has been postponed to the next meetup.
 - A curious bunch of people in general, some data mining and machine learning
   enthusiasts.
 - A few students trying out the language.
-- Our guest, [Nathann Cohen](http://www.steinertriples.fr/ncohen/tut/Graphs/), a Core contributor to [Sage](http://www.steinertriples.fr/ncohen/tut/Graphs/).
+- Our guest, [Nathann Cohen](http://www.steinertriples.fr/ncohen/tut/Graphs/), a Core contributor to [Sage](http://www.sagemath.org/).
 
 ## [Introduction to SQLAlchemy](https://speakerdeck.com/shrayasr/introduction-to-sqlalchemy-orms) - [Shrayas Rajagopal](https://github.com/shrayasr)
 
