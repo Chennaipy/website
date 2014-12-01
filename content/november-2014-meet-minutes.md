@@ -20,7 +20,7 @@ Selenium) has been postponed to the next meetup.
 - A curious bunch of people in general, some data mining and machine learning
   enthusiasts.
 - A few students trying out the language.
-- Our guest, Nathan, a Core contributor to Sage[1].
+- Our guest, [Nathann Cohen](http://www.steinertriples.fr/ncohen/tut/Graphs/), a Core contributor to [Sage](http://www.steinertriples.fr/ncohen/tut/Graphs/).
 
 ## [Introduction to SQLAlchemy](https://speakerdeck.com/shrayasr/introduction-to-sqlalchemy-orms) - [Shrayas Rajagopal](https://github.com/shrayasr)
 
@@ -31,7 +31,7 @@ Selenium) has been postponed to the next meetup.
 - dbapi
 - A demo using [iPython notebook to illustrate the use of sqlalchemy](http://nbviewer.ipython.org/github/shrayasr/talks/blob/master/sqlalchemy-orms-chennaipy-nov2014/Demo.ipynb).
 
-Vijay reminds the audience about our website[2] and
+Vijay reminds the audience about our [ChennaiPy website](http://chennaipy.org) and
 mailing list.
 
 ## [Fun with Pandas](http://nbviewer.ipython.org/github/sharmi/crunchbase_analysis/tree/master/) - [Sharmila Gopirajan](http://www.minvolai.com/blog/)
@@ -49,14 +49,10 @@ mailing list.
 Vijay gives his vote of thanks to everyone who helped with
 organizing the meetup. Next meetup most likely to be on Dec 20th.
 
-## References
-
-[1] http://www.sagemath.org/
-
-[2] http://chennaipy.org
 
 ## Credits
 
   * Venue Coordinator: Shrinivasan 
+  * Event Host: Vijay Kumar
   * Networking over Tea, Sponsor: Zilogic Systems
   * Minutes: Kiran Gangadharan
