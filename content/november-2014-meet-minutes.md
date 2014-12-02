@@ -16,7 +16,7 @@ Selenium) has been postponed to the next meetup.
 ## A Gentle Introduction to Generators and Co-routines
 
 Speaker: [Kiran Gangadharan](http://kirang.in/)  
-Slides: [https://speakerdeck.com/kirang89/a-gentle-introduction-to-generators-and-coroutines](https://speakerdeck.com/kirang89/a-gentle-introduction-to-generators-and-coroutines)
+Resources: [Slides on SpeakerDeck](https://speakerdeck.com/kirang89/a-gentle-introduction-to-generators-and-coroutines)
 
 
 - Explains what makes a generator function different from that of any
@@ -34,7 +34,8 @@ Slides: [https://speakerdeck.com/kirang89/a-gentle-introduction-to-generators-an
 ## Introduction to SQLAlchemy
 
 Speaker: [Shrayas Rajagopal](https://github.com/shrayasr)  
-Slides: [https://speakerdeck.com/shrayasr/introduction-to-sqlalchemy-orms](https://speakerdeck.com/shrayasr/introduction-to-sqlalchemy-orms)
+Resources: [Slides on SpeakerDeck](https://speakerdeck.com/shrayasr/introduction-to-sqlalchemy-orms),
+[IPython Notebook on GitHub](http://nbviewer.ipython.org/github/shrayasr/talks/blob/master/sqlalchemy-orms-chennaipy-nov2014/Demo.ipynb)
 
 - What is an ORM ? How does it help ?
 - Explains why ORM is important and how it helps you to deal with
@@ -49,7 +50,7 @@ mailing list.
 ## Fun with Pandas
 
 Speaker: [Sharmila Gopirajan](http://www.minvolai.com/blog/)  
-IPython Notebook: [http://nbviewer.ipython.org/github/sharmi/crunchbase_analysis/tree/master/](http://nbviewer.ipython.org/github/sharmi/crunchbase_analysis/tree/master/)
+Resources: [IPython Notebook on GitHub](http://nbviewer.ipython.org/github/sharmi/crunchbase_analysis/tree/master/)
 
 - 1st half - What Pandas is all about
 - data structures and common operations
