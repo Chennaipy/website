@@ -44,7 +44,7 @@ Resources: [Slides on SpeakerDeck](https://speakerdeck.com/shrayasr/introduction
 - dbapi
 - A demo using [iPython notebook to illustrate the use of sqlalchemy](http://nbviewer.ipython.org/github/shrayasr/talks/blob/master/sqlalchemy-orms-chennaipy-nov2014/Demo.ipynb).
 
-Vijay reminds the audience about our [ChennaiPy website](http://chennaipy.org) and
+Vijay reminds the audience about our [Chennaipy website](http://chennaipy.org) and
 mailing list.
 
 ## Fun with Pandas
