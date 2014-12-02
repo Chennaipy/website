@@ -64,9 +64,21 @@ IPython Notebook: [http://nbviewer.ipython.org/github/sharmi/crunchbase_analysis
 Vijay gives his vote of thanks to everyone who helped with
 organizing the meetup. Next meetup most likely to be on Dec 20th.
 
-## Credits
+## Credit Roll
 
   * Venue Coordinator: Shrinivasan 
   * Event Host: Vijay Kumar
-  * Networking over Tea, Sponsor: Zilogic Systems
+  * Networking over Tea, Sponsor: [Zilogic Systems](http://www.zilogic.com/)
   * Minutes: Kiran Gangadharan
+  * People who helped spread the word
+    - Aswin Murugesh
+    - Chintu Philips Koshy
+    - Karthik V. P. 
+    - Prasanna Vengadesh
+    - Rajesh Singh
+    - Rengaraj
+    - Vikneshwaren
+    - And many more, unknown people
+  * Guests who gladly accepted our invite
+    - Prof. Amritanshu Prasad
+    - Nathann Cohen
