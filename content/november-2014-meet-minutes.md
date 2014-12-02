@@ -5,6 +5,11 @@ Tags: Meeting Minutes
 A total of 70 people attended this meetup. So we literally had a
 classroom full of people.
 
+<a
+href="http://photos2.meetupstatic.com/photos/event/5/3/8/c/highres_432081388.jpeg"><img
+src="http://photos2.meetupstatic.com/photos/event/5/3/8/c/600_432081388.jpeg"
+alt="Members listening with rapt attention"></img></a>
+
 Due to technical difficulties, the first talk(Introduction to
 Selenium) has been postponed to the next meetup.
 
