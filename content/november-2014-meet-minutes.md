@@ -8,7 +8,11 @@ classroom full of people.
 Due to technical difficulties, the first talk(Introduction to
 Selenium) has been postponed to the next meetup.
 
-## [A gentle introduction to Generators and Co-routines](https://speakerdeck.com/kirang89/a-gentle-introduction-to-generators-and-coroutines) - [Kiran Gangadharan](http://kirang.in/)
+## A Gentle Introduction to Generators and Co-routines
+
+Speaker: [Kiran Gangadharan](http://kirang.in/)  
+Slides: [https://speakerdeck.com/kirang89/a-gentle-introduction-to-generators-and-coroutines](https://speakerdeck.com/kirang89/a-gentle-introduction-to-generators-and-coroutines)
+
 
 - Explains what makes a generator function different from that of any
   normal function and why/how they should be used.
@@ -22,7 +26,10 @@ Selenium) has been postponed to the next meetup.
 - A few students trying out the language.
 - Our guest, [Nathann Cohen](http://www.steinertriples.fr/ncohen/tut/Graphs/), a Core contributor to [Sage](http://www.sagemath.org/).
 
-## [Introduction to SQLAlchemy](https://speakerdeck.com/shrayasr/introduction-to-sqlalchemy-orms) - [Shrayas Rajagopal](https://github.com/shrayasr)
+## Introduction to SQLAlchemy
+
+Speaker: [Shrayas Rajagopal](https://github.com/shrayasr)  
+Slides: [https://speakerdeck.com/shrayasr/introduction-to-sqlalchemy-orms](https://speakerdeck.com/shrayasr/introduction-to-sqlalchemy-orms)
 
 - What is an ORM ? How does it help ?
 - Explains why ORM is important and how it helps you to deal with
@@ -34,7 +41,10 @@ Selenium) has been postponed to the next meetup.
 Vijay reminds the audience about our [ChennaiPy website](http://chennaipy.org) and
 mailing list.
 
-## [Fun with Pandas](http://nbviewer.ipython.org/github/sharmi/crunchbase_analysis/tree/master/) - [Sharmila Gopirajan](http://www.minvolai.com/blog/)
+## Fun with Pandas
+
+Speaker: [Sharmila Gopirajan](http://www.minvolai.com/blog/)  
+IPython Notebook: [http://nbviewer.ipython.org/github/sharmi/crunchbase_analysis/tree/master/](http://nbviewer.ipython.org/github/sharmi/crunchbase_analysis/tree/master/)
 
 - 1st half - What Pandas is all about
 - data structures and common operations
@@ -48,7 +58,6 @@ mailing list.
 
 Vijay gives his vote of thanks to everyone who helped with
 organizing the meetup. Next meetup most likely to be on Dec 20th.
-
 
 ## Credits
 
