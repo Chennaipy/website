@@ -5,10 +5,19 @@ Tags: Meeting Minutes
 A total of 70 people attended this meetup. So we literally had a
 classroom full of people.
 
+<a
+href="http://photos2.meetupstatic.com/photos/event/5/3/8/c/highres_432081388.jpeg"><img
+src="http://photos2.meetupstatic.com/photos/event/5/3/8/c/600_432081388.jpeg"
+alt="Members listening with rapt attention"></img></a>
+
 Due to technical difficulties, the first talk(Introduction to
 Selenium) has been postponed to the next meetup.
 
-## [A gentle introduction to Generators and Co-routines](https://speakerdeck.com/kirang89/a-gentle-introduction-to-generators-and-coroutines) - [Kiran Gangadharan](http://kirang.in/)
+## A Gentle Introduction to Generators and Co-routines
+
+Speaker: [Kiran Gangadharan](http://kirang.in/)  
+Resources: [Slides on SpeakerDeck](https://speakerdeck.com/kirang89/a-gentle-introduction-to-generators-and-coroutines)
+
 
 - Explains what makes a generator function different from that of any
   normal function and why/how they should be used.
@@ -22,7 +31,11 @@ Selenium) has been postponed to the next meetup.
 - A few students trying out the language.
 - Our guest, [Nathann Cohen](http://www.steinertriples.fr/ncohen/tut/Graphs/), a Core contributor to [Sage](http://www.sagemath.org/).
 
-## [Introduction to SQLAlchemy](https://speakerdeck.com/shrayasr/introduction-to-sqlalchemy-orms) - [Shrayas Rajagopal](https://github.com/shrayasr)
+## Introduction to SQLAlchemy
+
+Speaker: [Shrayas Rajagopal](https://github.com/shrayasr)  
+Resources: [Slides on SpeakerDeck](https://speakerdeck.com/shrayasr/introduction-to-sqlalchemy-orms),
+[IPython Notebook on GitHub](http://nbviewer.ipython.org/github/shrayasr/talks/blob/master/sqlalchemy-orms-chennaipy-nov2014/Demo.ipynb)
 
 - What is an ORM ? How does it help ?
 - Explains why ORM is important and how it helps you to deal with
@@ -31,10 +44,13 @@ Selenium) has been postponed to the next meetup.
 - dbapi
 - A demo using [iPython notebook to illustrate the use of sqlalchemy](http://nbviewer.ipython.org/github/shrayasr/talks/blob/master/sqlalchemy-orms-chennaipy-nov2014/Demo.ipynb).
 
-Vijay reminds the audience about our [ChennaiPy website](http://chennaipy.org) and
+Vijay reminds the audience about our [Chennaipy website](http://chennaipy.org) and
 mailing list.
 
-## [Fun with Pandas](http://nbviewer.ipython.org/github/sharmi/crunchbase_analysis/tree/master/) - [Sharmila Gopirajan](http://www.minvolai.com/blog/)
+## Fun with Pandas
+
+Speaker: [Sharmila Gopirajan](http://www.minvolai.com/blog/)  
+Resources: [IPython Notebook on GitHub](http://nbviewer.ipython.org/github/sharmi/crunchbase_analysis/tree/master/)
 
 - 1st half - What Pandas is all about
 - data structures and common operations
@@ -49,10 +65,21 @@ mailing list.
 Vijay gives his vote of thanks to everyone who helped with
 organizing the meetup. Next meetup most likely to be on Dec 20th.
 
-
-## Credits
+## Credit Roll
 
   * Venue Coordinator: Shrinivasan 
   * Event Host: Vijay Kumar
-  * Networking over Tea, Sponsor: Zilogic Systems
+  * Networking over Tea, Sponsor: [Zilogic Systems](http://www.zilogic.com/)
   * Minutes: Kiran Gangadharan
+  * People who helped spread the word
+    - Aswin Murugesh
+    - Chintu Philips Koshy
+    - Karthik V. P. 
+    - Prasanna Vengadesh
+    - Rajesh Singh
+    - Rengaraj
+    - Vikneshwaren
+    - And many more, unknown people
+  * Guests who gladly accepted our invite
+    - Prof. Amritanshu Prasad
+    - Nathann Cohen
