@@ -26,7 +26,7 @@ NOTE: Upcoming event template, update and uncomment
      </div>
      <div class="pure-u-1-2 cp-grid-sect">
      <p>
-     <i class="fa fa-group fa-4x" style="color:#ff5555"></i>
+     <i class="fa fa-group fa-4x" style="color:#E0393E"></i>
      </p>
      <p><strong>Meetup</strong><br/>
      <a href="http://www.meetup.com/Chennaipy/join/">Join</a> |
@@ -44,7 +44,7 @@ NOTE: Upcoming event template, update and uncomment
      </div>
      <div class="pure-u-1-2 cp-grid-sect">
      <p>
-     <i class="fa fa-twitter fa-4x" style="color:#5555ff"></i>
+     <i class="fa fa-twitter fa-4x" style="color:#4099FF"></i>
      </p>
      <p><strong>Twitter</strong><br/>
      <a href="https://twitter.com/intent/follow?screen_name=chennaipy">Follow</a> |
