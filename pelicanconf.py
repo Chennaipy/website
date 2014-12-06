@@ -6,6 +6,7 @@ AUTHOR = u'Vijay Kumar B.'
 SITENAME = u'Chennaipy'
 TAGLINE = u'Chennai Python User Group'
 SITEURL = ''
+FAVICON_URL = 'https://www.python.org/statiicon.ico'
 
 SITE_LICENSE = 'Text is available under the Creative Commons Attribution-ShareAlike License.'
 
