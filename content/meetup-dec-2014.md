@@ -89,6 +89,15 @@ just based on their ratings. We will show you how to use a machine
 learning model to classify the sentiment of a review automatically,
 all with Python!!
 
+### Solving graph problems using NetworkX
+
+Speaker: Krishna Sangeeth
+
+NetworkX is a python package which can be used for handling
+graphs. Through the talk I want to touch on how we see problems which
+can be solved by graph all around and how we can leverage the NetworkX
+module to solve challenging problems.
+
 ### Decorators 
 
 Speaker: [Shrayas Rajagopal](http://www.meetup.com/Chennaipy/members/31218952/)
