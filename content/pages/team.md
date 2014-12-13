@@ -1,20 +1,21 @@
 Title: Team
 
-Lot of volunteers are helping ChennaiPy for conducting 
+Lot of volunteers are helping Chennaipy for conducting 
 Python events in and around Chennai.
 As a Python User community we are appreciating their work
 towards open source.
 
-List of Volunteers who help chennaipy in various ways.
+List of Volunteers who help Chennaipy in various ways.
 
 
 ### Event Organizers
 
- * Vijaykumar B
+ * Vijay Kumar B
 
 ### Mailing List Moderator
 
- * Vijaykumar B
+ * Vijay Kumar B
+ * Shrayas R
 
 ### Twitter Account Maintainers
 
