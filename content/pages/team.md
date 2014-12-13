@@ -1,4 +1,4 @@
-Title: About Volunteers
+Title: Team
 
 Lot of volunteers are helping ChennaiPy for conducting 
 Python events in and around Chennai.
