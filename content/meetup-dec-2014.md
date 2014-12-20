@@ -127,6 +127,16 @@ read. This talk proposes to give an introduction to them.
 Resources: [IPython
 Notebook](http://nbviewer.ipython.org/github/shrayasr/talks/blob/master/py-functions-chennaipy-dec2014/Decorators.ipynb)
 
+### Building a Website Using Static Site Generators
+
+Speaker: [Gaurav Sherawat](http://www.meetup.com/Chennaipy/members/73333582/)
+
+Static site generator is a software/framework which outputs html files
+by combining text and templates, thus generating a website/blog. This
+talk will focus on how to use few of them & host the site on github.
+
+Resources: [Slides](http://www.slideshare.net/GauravSehrawat1/static-site-generator-in-python)
+
 ## RSVP
 
 Please RSVP on our [Meetup
