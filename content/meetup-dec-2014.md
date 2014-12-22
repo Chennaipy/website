@@ -40,6 +40,9 @@ Functions in Python are First class. They can be passed to and from
 functions. They can be created inside other functions and a lot
 more. This talk proposes to introduce this concept.
 
+Resources: [IPython
+Notebook](http://nbviewer.ipython.org/github/shrayasr/talks/blob/master/py-functions-chennaipy-dec2014/Functions.ipynb)
+
 ### How Python Changed My View of Programming
 
 Speaker: [Rengaraj](http://www.meetup.com/Chennaipy/members/153069272/)
@@ -69,6 +72,8 @@ quickly hit this limit. This talk will cover how we overcame this
 restriction using Rope, a refactoring library for Python and some
 Python scripting hackery.
 
+Resources: [Slides](http://www.slideshare.net/VijayKumarBagavathSi/breaking-free-with-rope)
+
 ### Introduction to Sage
 
 Speaker: [Amritanshu Prasad](http://www.meetup.com/Chennaipy/members/182681977/)
@@ -77,6 +82,8 @@ Sage is a free open-source mathematics software system licensed under
 the GPL. It builds on top of many existing open-source packages:
 NumPy, SciPy, matplotlib, Sympy, Maxima, GAP, FLINT, R and many
 more. This talk will be an introduction to Sage.
+
+Resources: [Slides](https://dl.dropboxusercontent.com/u/15301461/sage.pdf)
 
 ### Sentiment Analysis using Python
 
@@ -89,6 +96,11 @@ just based on their ratings. We will show you how to use a machine
 learning model to classify the sentiment of a review automatically,
 all with Python!!
 
+Resources:
+[Slides](http://vumaasha.github.io/pychennai-sentiment-analysis/),
+[Code](https://github.com/vumaasha/pychennai-sentiment-analysis)
+
+
 ### Solving graph problems using NetworkX
 
 Speaker: Krishna Sangeeth
@@ -97,6 +109,9 @@ NetworkX is a python package which can be used for handling
 graphs. Through the talk I want to touch on how we see problems which
 can be solved by graph all around and how we can leverage the NetworkX
 module to solve challenging problems.
+
+Resources:
+[Slides](http://www.slideshare.net/kskrishnasangeeth/solving-graph-problems-using-networkx)
 
 ### Decorators 
 
@@ -108,6 +123,19 @@ this. If time permits and people are interested, we can see an
 application of Talk 1 VIZ Decorators. Decorators are a concept that is
 gaining widespread use in Python because it is just that easy to
 read. This talk proposes to give an introduction to them.
+
+Resources: [IPython
+Notebook](http://nbviewer.ipython.org/github/shrayasr/talks/blob/master/py-functions-chennaipy-dec2014/Decorators.ipynb)
+
+### Building a Website Using Static Site Generators
+
+Speaker: [Gaurav Sherawat](http://www.meetup.com/Chennaipy/members/73333582/)
+
+Static site generator is a software/framework which outputs html files
+by combining text and templates, thus generating a website/blog. This
+talk will focus on how to use few of them & host the site on github.
+
+Resources: [Slides](http://www.slideshare.net/GauravSehrawat1/static-site-generator-in-python)
 
 ## RSVP
 
