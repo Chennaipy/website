@@ -32,3 +32,7 @@ site's theme is based on [Pure Pelican Theme](https://github.com/PurePelicanThem
 * Start the server
 
         make devserver
+
+## Contributing
+
+See CONTRIBUTING.md
