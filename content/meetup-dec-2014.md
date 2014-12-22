@@ -43,24 +43,6 @@ more. This talk proposes to introduce this concept.
 Resources: [IPython
 Notebook](http://nbviewer.ipython.org/github/shrayasr/talks/blob/master/py-functions-chennaipy-dec2014/Functions.ipynb)
 
-### How Python Changed My View of Programming
-
-Speaker: [Rengaraj](http://www.meetup.com/Chennaipy/members/153069272/)
-
-My journey into programming started with Python. The talk is about how
-Python made me to dive into programing which I never liked at
-college. Example programs which I have backup of, and my first Python
-project.
-
-### Contributing to Shaape
-
-Speaker: [Babu Subash Chandar](http://www.meetup.com/Chennaipy/members/177868122/)
-
-Shaape is a Python based tool to generated images from ASCII
-text. This talk will cover how we contributed to Shaape by setting up
-continuous integration using TravisCI. We would also like to invite
-other people to contribute to Shaape.
-
 ### Breaking Free with Rope
 
 Speaker: [Vijay Kumar](http://www.meetup.com/Chennaipy/members/147018982/)
