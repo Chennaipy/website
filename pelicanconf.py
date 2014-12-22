@@ -46,7 +46,8 @@ MENUITEMS = [
     ("Events", "tag/events.html"),
     ("Meeting Minutes", "tag/meeting-minutes.html"),
     ("Credits", "pages/credits.html"),
-    ("Team", "pages/team.html")
+    ("Team", "pages/team.html"),
+    ("General Announcements", "tag/general-announcements.html"),
 ]
 
 #
