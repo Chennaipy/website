@@ -13,11 +13,20 @@ site's theme is based on [Pure Pelican Theme](https://github.com/PurePelicanThem
 * [Mailing list](https://mail.python.org/mailman/listinfo/chennaipy)
 * [Twitter](http://twitter.com/chennaipy)
 
-## Setup
+## Setup for local development
+
+* Fork repo 
+
+  [Fork](https://github.com/Chennaipy/website/fork) the repository to your account 
+so that you have your copy of the website.
 
 * Clone repo
 
-        $ git clone git@github.com:<username>/<repo>.git        
+        $ git clone --recursive git@github.com:<your-username>/website.git chennaipy-website
+
+  This will clone the repository on to your system and clone the submodules inside
+it as well recursively. Additionally, the folder to which it will be cloned to
+is called `chennaipy-website`.
 
 * Set up a virtual env in that folder and activate it
 
@@ -32,6 +41,11 @@ site's theme is based on [Pure Pelican Theme](https://github.com/PurePelicanThem
 * Start the server
 
         make devserver
+
+* Visit local site
+
+  Open up your web browser and point it to [http://localhost:8000](http://localhost:8000) to see the site
+running locally. Yay!
 
 ## Contributing
 
