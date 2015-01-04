@@ -46,3 +46,7 @@ is called `chennaipy-website`.
 
   Open up your web browser and point it to [http://localhost:8000](http://localhost:8000) to see the site
 running locally. Yay!
+
+## Contributing
+
+See CONTRIBUTING.md
