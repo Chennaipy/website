@@ -1,6 +1,7 @@
 Title: October Meet Minutes
 Date: 2014-10-27 10:45
 Tags: Meeting Minutes
+Summary: <img alt="" src="http://photos2.meetupstatic.com/photos/event/4/b/5/d/global_432439293.jpeg"/> <img src="http://photos2.meetupstatic.com/photos/event/4/c/3/8/global_432439512.jpeg" alt=""/> <img src="http://photos2.meetupstatic.com/photos/event/5/3/8/9/global_432441385.jpeg" alt=""/>
 
 ## Python Test Automation
 

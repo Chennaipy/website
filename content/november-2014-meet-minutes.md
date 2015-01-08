@@ -1,6 +1,7 @@
 Title: November Meet Minutes
 Date: 2014-12-1 02:16
 Tags: Meeting Minutes
+Summary: <img src="http://photos2.meetupstatic.com/photos/event/5/3/8/c/global_432081388.jpeg" alt=""/> <img src="http://photos2.meetupstatic.com/photos/event/5/8/5/b/global_431962619.jpeg" alt=""/> <img src="http://photos1.meetupstatic.com/photos/event/5/3/9/a/global_432081402.jpeg" alt=""/>
 
 A total of 70 people attended this meetup. So we literally had a
 classroom full of people.

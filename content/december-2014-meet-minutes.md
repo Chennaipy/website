@@ -1,6 +1,7 @@
 Title: December Meet Minutes
 Date: 2014-12-22 06:45
 Tags: Meeting Minutes
+Summary: <img src="http://photos2.meetupstatic.com/photos/event/7/0/1/2/global_432628690.jpeg" alt=""/> <img src="http://photos2.meetupstatic.com/photos/event/6/9/b/d/global_432627069.jpeg" alt=""/> <img src="http://photos1.meetupstatic.com/photos/event/7/0/1/b/global_432628699.jpeg" alt=""/> <img src="http://photos3.meetupstatic.com/photos/event/6/9/b/9/global_432627065.jpeg" alt=""/>
 
 The December meetup had kept me ([Vijay
 Kumar](http://www.meetup.com/Chennaipy/members/147018982/)) excited
