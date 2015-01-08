@@ -6,6 +6,7 @@ AUTHOR = u'Vijay Kumar B.'
 SITENAME = u'Chennaipy'
 TAGLINE = u'Chennai Python User Group'
 SITEURL = ''
+FAVICON_URL = 'https://www.python.org/static/favicon.ico'
 
 SITE_LICENSE = 'Text is available under the Creative Commons Attribution-ShareAlike License.'
 
@@ -45,7 +46,8 @@ MENUITEMS = [
     ("Events", "tag/events.html"),
     ("Meeting Minutes", "tag/meeting-minutes.html"),
     ("Credits", "pages/credits.html"),
-    ("Team", "pages/team.html")
+    ("Team", "pages/team.html"),
+    ("General Announcements", "tag/general-announcements.html"),
 ]
 
 #

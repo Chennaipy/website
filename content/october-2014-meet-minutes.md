@@ -4,6 +4,11 @@ Tags: Meeting Minutes
 
 ## Python Test Automation
 
+<a
+href="http://photos2.meetupstatic.com/photos/event/4/b/5/d/highres_432439293.jpeg"><img
+src="http://photos2.meetupstatic.com/photos/event/4/b/5/d/event_432439293.jpeg"
+alt="Krishnan Explaining" style="float: right"></img></a>
+
 The first talk of the evening was given by Krishnan in Python Test
 Automation. He explained how Python could be used for all types of
 testing - web testing, GUI testing, functional testing, unit testing,
@@ -47,6 +52,11 @@ black box
 
 ## Docopt
 
+<a
+href="http://photos2.meetupstatic.com/photos/event/4/c/3/8/highres_432439512.jpeg"><img
+src="http://photos2.meetupstatic.com/photos/event/4/c/3/8/event_432439512.jpeg"
+alt="Rengaraj Explaining" style="float: right"></img></a>
+
 The second talk was given by Rengaraj on Docopt. Docopt is a python
 module used to generate an interface for your command line
 application. it also automatically generates a parser for it. I had
@@ -62,6 +72,11 @@ Docopt is that the usage format has to be in the POSIX format for it
 to work
 
 ## Building Embedded Systems with Twisted
+
+<a
+href="http://photos2.meetupstatic.com/photos/event/5/3/8/9/highres_432441385.jpeg"><img
+src="http://photos2.meetupstatic.com/photos/event/5/3/8/9/event_432441385.jpeg"
+alt="Vijay Explaining" style="float: right"></img></a>
 
 The last talk was given by Vijay Kumar on a problem he solved at his
 company using Python and some embedded hardware. He explained how at
