@@ -57,3 +57,6 @@ MENUITEMS = [
 SLUGIFY_SOURCE = "basename"
 
 CUSTOM_CSS = "static/css/custom.css"
+
+#Adding Google Analytics code
+GOOGLE_ANALYTICS = "UA-58552361-1"
