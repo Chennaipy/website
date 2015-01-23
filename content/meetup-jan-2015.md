@@ -83,6 +83,17 @@ did as part of the project - unit testing, supporting Python 2 and 3, code
 coverage analysis, packaging and distribution. This talk will give an overview 
 of the lessons from the Python Project. 
 
+### Build your own CPU: An introduction to HDLs and FPGA development using Python
+
+Speaker: Shrikant Giridhar
+
+The advent of affordable FPGAs with a decent number of gates has made hardware
+design accessible for anyone interested. But describing hardware accurately in
+software can be tricky. This is where HDLs come into the picture. And as with
+everything else, there is a Python library for easing into writing pure HDL
+code. This talk introduces development with MyHDL, a Python library to generate
+descriptions of digital hardware. 
+
 ## RSVP
 
 Please RSVP on our [Meetup
