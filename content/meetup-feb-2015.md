@@ -25,7 +25,7 @@ Location map:
 ## Schedule
 
   * Lightning Talks (40 min)
-  * Networking over Tea sponsored by [Zilogic Systems](http://www.zilogic.com/) 
+  * Networking over Tea sponsored by [Logic Soft](http://logicsoft.co.in) 
   (20 min)
   * Lightning Talks (40 min)
   * Discussions (20 min)
