@@ -15,9 +15,9 @@ site's theme is based on [Pure Pelican Theme](https://github.com/PurePelicanThem
 
 ## Setup for local development
 
-* Fork repo 
+* Fork repo
 
-  [Fork](https://github.com/Chennaipy/website/fork) the repository to your account 
+  [Fork](https://github.com/Chennaipy/website/fork) the repository to your account
 so that you have your copy of the website.
 
 * Clone repo
@@ -37,7 +37,7 @@ is called `chennaipy-website`.
 * Install the requirements using `pip` from inside the virtual environment
 
         (env)$ pip install -r requirements.txt
-        
+
 * Start the server
 
         make devserver
@@ -49,4 +49,4 @@ running locally. Yay!
 
 ## Contributing
 
-See CONTRIBUTING.md
+See [CONTRIBUTING.md](CONTRIBUTING.md)
