@@ -55,11 +55,11 @@ see people forming groups and discussing various topics.
 ## Lightning Talks - II
 
 After the networking tea break, we had a second round of lightning
-talks. 
+talks.
 
 <a
-href="http://photos1.meetupstatic.com/photos/event/7/0/1/b/highres_432628699.jpeg"><img
-src="http://photos1.meetupstatic.com/photos/event/7/0/1/b/event_432628699.jpeg"
+href="http://photos2.meetupstatic.com/photos/event/7/0/3/a/event_432628730.jpeg"><img
+src="http://photos2.meetupstatic.com/photos/event/7/0/3/a/event_432628730.jpeg"
 alt="NetworkX Talk" style="float: right"/></a>
 
   * "Solving Graph Problems using NetworkX" by [Krishna
@@ -88,7 +88,7 @@ language. I then thanked all the people behind the meetup.
 
 While reading out the credits, the crowd spontaneously started
 clapping, for the venue. Looks like, everybody felt the same about the
-venue. 
+venue.
 
 We did a show of hands to find out, the format to go with for the next
 meetup. Almost everybody liked the lightning talks format, and almost
