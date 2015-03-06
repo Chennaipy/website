@@ -58,7 +58,7 @@ After the networking tea break, we had a second round of lightning
 talks.
 
 <a
-href="http://photos2.meetupstatic.com/photos/event/7/0/3/a/event_432628730.jpeg"><img
+href="http://photos2.meetupstatic.com/photos/event/7/0/3/a/highres_432628730.jpeg"><img
 src="http://photos2.meetupstatic.com/photos/event/7/0/3/a/event_432628730.jpeg"
 alt="NetworkX Talk" style="float: right"/></a>
 
