@@ -49,4 +49,4 @@ running locally. Yay!
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/Chennaipy/website/blob/master/CONTRIBUTING.md)
+See [CONTRIBUTING.md](CONTRIBUTING.md)
