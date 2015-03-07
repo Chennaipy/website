@@ -17,7 +17,7 @@ Python.
 - Speaker: Akshia Kumar
 - Video: [Vimeo](https://vimeo.com/album/3253406/video/119148546)
 
-He talked about using tools such as OpenCV, Numpy and operation with images. He
+Akshia talked about using tools such as OpenCV, Numpy and operation with images. He
 also covered about filtering and thresholding.
 
 ### How Python changed my view of programming
@@ -44,15 +44,15 @@ on "scratch your itch" for people to get involved.
 - Speaker: Prof. Amritanshu Prasad
 - Video: [Vimeo](https://vimeo.com/album/3253406/video/119506004)
 
-He showed coding samples on exception handling to explain the concept. It was
-useful.
+Prof. Amritanshu showed coding samples on exception handling to explain the
+concept. It was useful.
 
 ### Pystrokes
 
 - Speaker: Rajesh Singh
 - Video: [Vimeo](https://vimeo.com/album/3253406/video/118873669)
 
-He spoke about accelerating Python using Cython. It gave a different
+Rajesh spoke about accelerating Python using Cython. It gave a different
 perspective.
 
 There was a tea break where people had a chance to know each other and
@@ -72,11 +72,10 @@ about libcrypt, simulate projects.
 
 - Speaker: Shrikant Giridhar 
 
-Then came Shrikant Giridhar with the topic "Build your own CPU". He
-talked about how to build a computer starting from scratch. He talked
-about project Oberon, Hardware description Languages such as Verilog,
-MyHDL - HDL semantics in Python. Generators & Decorators,
-Synthesizable Python. He also talked about opencores.org.
+Shrikant talked about how to build a computer starting from scratch. He talked
+about project Oberon, Hardware description Languages such as Verilog, MyHDL -
+HDL semantics in Python. Generators & Decorators, Synthesizable Python. He also
+talked about opencores.org.
 
 Overall it was a useful meetup where people had a chance to know more
 about Python and about different fields Python was used.
