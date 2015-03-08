@@ -12,43 +12,70 @@ The meetup started with an quick intro session by Vijay Kumar and
 Shrayas on Python. It gave a quick idea for people who are new to
 Python.
 
-The first lightning talk was on Image Processing by Akshaia Kumar. He
-talked about using tools such as OpenCV, Numpy and operation with
-images. He also covered about filtering and thresholding.
+### Image Processing
 
-The second topic was "How Python changed my view of programming" where
-Rengaraj shared about how he came into the world of Programming and
-Python's role in it. It was inspirational for many.
+- Speaker: Akshia Kumar
+- Video: [Vimeo](https://vimeo.com/album/3253406/video/119148546)
 
-Then came Shrayas with the topic "My Journey with the world of open
-source". He shared how he wrote his first crawler and how it helped
-his friends. He shared his experience on contributing to open source
-projects in GitHub and how he felt when his first pull request was
-approved. He also showed some of his projects over there in
-GitHub. His account is shrayasr in GitHub. He stressed on "scratch
-your itch" for people to get involved.
+Akshia talked about using tools such as OpenCV, Numpy and operation with images. He
+also covered about filtering and thresholding.
 
-The next session was "Exception handling in Python" by Amritanshu
-Prasad. He showed coding samples on exception handling to explain the
+### How Python changed my view of programming
+
+- Speaker: Rengaraj
+- Video: [Vimeo](https://vimeo.com/album/3253406/video/119403718)
+
+Rengaraj shared his experience about how he came into the world of Programming
+and Python's role in it. It was inspirational for many.
+
+### My Journey with the world of Open Source
+
+- Speaker: Shrayas
+- Video: [Vimeo](https://vimeo.com/album/3253406/video/119355618)
+
+Shrayas shared how he wrote his first crawler and how it helped his friends. He
+shared his experience on contributing to open source projects in GitHub and how
+he felt when his first pull request was approved. He also showed some of his
+projects over there in GitHub. His account is shrayasr on GitHub. He stressed
+on "scratch your itch" for people to get involved.
+
+### Exception handling in Python
+
+- Speaker: Prof. Amritanshu Prasad
+- Video: [Vimeo](https://vimeo.com/album/3253406/video/119506004)
+
+Prof. Amritanshu showed coding samples on exception handling to explain the
 concept. It was useful.
 
-Then came Rajesh Singh with the topic "Pystokes" a case study of
-accelerating Python using Cython. It gave a different perspective.
+### Pystrokes
+
+- Speaker: Rajesh Singh
+- Video: [Vimeo](https://vimeo.com/album/3253406/video/118873669)
+
+Rajesh spoke about accelerating Python using Cython. It gave a different
+perspective.
 
 There was a tea break where people had a chance to know each other and
 share their views.
 
-The next talk was from Vijay Kumar on design and implementation of
-Hangman game. How it moved from just a program to a full blown
-project. He shared his valuable learnings on how unit testing is
-mandatory in Python, supporting different versions of Python. He also
-talked about libcrypt, simulate projects.
+### Hangman: Design and Implementation
 
-Then came Shrikant Giridhar with the topic "Build your own CPU". He
-talked about how to build a computer starting from scratch. He talked
-about project Oberon, Hardware description Languages such as Verilog,
-MyHDL - HDL semantics in Python. Generators & Decorators,
-Synthesizable Python. He also talked about opencores.org.
+- Speaker: Vijay Kumar
+- Video: [Vimeo](https://vimeo.com/album/3253406/video/119147267)
+
+Vijay spoke about how the Hangman game moved from just a program to a full
+blown project. He shared his valuable learnings on how unit testing is
+mandatory in Python, supporting different versions of Python. He also talked
+about libcrypt, simulate projects.
+
+### Build your own CPU
+
+- Speaker: Shrikant Giridhar 
+
+Shrikant talked about how to build a computer starting from scratch. He talked
+about project Oberon, Hardware description Languages such as Verilog, MyHDL -
+HDL semantics in Python. Generators & Decorators, Synthesizable Python. He also
+talked about opencores.org.
 
 Overall it was a useful meetup where people had a chance to know more
 about Python and about different fields Python was used.
