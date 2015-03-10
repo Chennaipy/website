@@ -243,11 +243,6 @@ a.pure-button-primary {
             float: right;
         }
 
-    /* We increase the height of the splash-container */
-/*    .splash-container {
-        height: 500px;
-    }*/
-
     /* We decrease the width of the .splash, since we have more width
     to work with */
     .splash {
