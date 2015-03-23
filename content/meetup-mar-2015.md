@@ -56,6 +56,10 @@ Slides: http://www.slideshare.net/VijayKumarBagavathSi/bitten-by-python
 
 Speaker: Kannan
 
+If GUI is WYSIWYG (what you see is what you get) then BCI could become WYTIWYG
+(what you think is what you get). This talk would be an intro on BCI, use of
+python in creating brain controlled apps and live demos. 
+
 ### Python scripting in Android using SL4A
 
 Speaker: Sivasubramanyam
