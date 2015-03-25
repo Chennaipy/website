@@ -108,6 +108,13 @@ Python Experience". He discussed about various cool Python scripts he
 had written to perform some day to day tasks, and the Python libraries
 he had used.
 
+### Credits and Logo Contest
+
+Shrayas thanked everybody who helped organize the event. After which
+Shrayas announced the Logo Contest. A user group like Chennaipy,
+deserves its own logo! And it was best to get the community to come up
+with a great logo for Chennaipy. And hence the Logo Contest.
+
 ### Sparks
 
 After the talks, Shrayas invited people to come up and share their
