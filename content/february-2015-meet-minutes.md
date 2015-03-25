@@ -1,6 +1,8 @@
 Title: February Meet Minutes
 Date: 2015-03-24 06:00
 Tags: Meeting Minutes
+Summary: <img src="http://photos2.meetupstatic.com/photos/event/8/2/c/c/global_434733484.jpeg" alt=""/> <img src="http://photos4.meetupstatic.com/photos/event/8/2/d/e/global_434733502.jpeg" alt=""/> <img src="http://photos3.meetupstatic.com/photos/event/c/1/9/6/global_434869558.jpeg" alt=""/>
+
 
 ## Preparing for the Day
 
@@ -23,6 +25,12 @@ Mortensen.
 Though I hadn't recovered completely, I wanted to make it to the
 workshop, to help coordinate the event.
 
+<a
+href="http://photos2.meetupstatic.com/photos/event/8/2/c/c/600_434733484.jpeg">
+<img
+src="http://photos2.meetupstatic.com/photos/event/8/2/c/c/event_434733484.jpeg"
+alt="Hands-on at the Workshop" style="float:right"/></a>
+
 Entry into Ascendas was one thing that needed special care. Thanks to
 the high profile security, it is a pain to get an entry into IT parks
 like Ascendas, and people from Adaptavant were very helpful in that
@@ -30,6 +38,12 @@ regard. It was just unfortunate that many people who RSVPed for the
 workshop, did not turn up for the event. Nevertheless we had 15 people
 from the community and 10 people from Adaptavant participating in the
 workshop.
+
+<a
+href="http://photos2.meetupstatic.com/photos/event/8/2/d/e/600_434733502.jpeg">
+<img
+src="http://photos4.meetupstatic.com/photos/event/8/2/d/e/event_434733502.jpeg"
+alt="Shrayas Explaining" style="float:right; clear:both"/></a>
 
 The workshop went almost as planned. The attendees were very receptive
 and from the feedback we received later on, people did find it very
@@ -59,6 +73,12 @@ regular Chennaipy members!
 Shrayas anchored the event this time, and I was behind the camera
 trying to record the event. The following talks were done in the first
 half.
+
+<a
+href="http://photos3.meetupstatic.com/photos/event/c/1/9/6/600_434869558.jpeg">
+<img
+src="http://photos3.meetupstatic.com/photos/event/c/1/9/6/event_434869558.jpeg"
+alt="BigData and MapReduce Talk" style="float:right"></a>
 
   * A Lisp powered Python by Shrayas
   * BigData and MapReduce by Krishna Sangeeth
