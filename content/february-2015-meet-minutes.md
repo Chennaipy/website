@@ -66,7 +66,7 @@ reached the Ramanujan Auditorium, we found that we had also set
 another record in Chennaipy's history, for the lowest ever
 actual-turn-out to RSVP ratio! We had about 45 people in all, which
 was still a great number, and the best part was most of them were
-regular Chennaipy members!
+people who were regular at the meetups!
 
 ### Lightning Talks
 
@@ -87,7 +87,7 @@ alt="BigData and MapReduce Talk" style="float:right"></a>
 Vengatesh' talk deserves a special mention. Staying true to his topic,
 Vengatesh used an Android app and server program, he had developed, to
 switch slides on his laptop. The communication happened over
-Bluetooth. And to top it off he showed how the Android's accelerometer
+Bluetooth. And to top it off he showed how the phones's accelerometer
 sensor can be used to remotely control (over bluetooth) a car game
 running on the laptop / PC. The audience spontaneously burst into
 applause at the end of the demo.
@@ -100,7 +100,7 @@ And in the second half we did the following talks.
   * My Python Experience by Shrikant Giridhar
 
 Rengaraj brought in a Micro Python board, and showed video demos of
-this code, where he used the Accelerometer to control the brightness
+this code, where he used the accelerometer to control the brightness
 of the accelerometer.
 
 Shrikant decided to change his topic on the fly, from Git to "My
@@ -115,7 +115,7 @@ thoughts. We had a handful of people coming up on stage and sharing
 their views. Nelson Anand, was one of them. He had attended the
 workshop in the morning, as well. He told us, how excited he was to be
 part of the workshop and the meetup, and how he had been checking the
-meetup page frequently (it happened to be more frequently than his
+meetup page frequently (it happened to be more frequent than his
 Facebook page!). He thanked people behind the event for organizing
 such workshops.
 
@@ -126,8 +126,8 @@ discussing and chitchating. We got Karthik and few others to support
 us in converting the meetup videos.
 
 Earlier, we had a feedback from some students that meetups on
-Saturdays, were hard to attend. We wanted to do quick check if people
-would prefer to have the meetup in the Sundays. We had missed it
+Saturdays, were hard to attend. We wanted to do a quick check if
+people would prefer to have the meetup on Sundays. We had missed it
 during the meetup, so we checked with the people who had stayed back.
 Since most of them were OK with it, we decided to have the next meetup
 on a Sunday.
