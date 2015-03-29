@@ -10,22 +10,25 @@ List of Volunteers who help Chennaipy in various ways.
 
 ### Event Organizers
 
- * Vijay Kumar B
+* Vijay Kumar B
 
-### Mailing List Moderator
+### Mailing List Moderators
 
- * Vijay Kumar B
- * Shrayas R
+* Vijay Kumar B
+* Shrayas R
 
 ### Twitter Account Maintainers
 
- * Rengaraj D
- * Shrayas R
+* Rengaraj D
+* Shrayas R
 
 ### Website Maintainers
 
- * Kiran G
- * Shrayas R
- * Vijaykumar B
+* Kiran G
+* Shrayas R
+* Vijaykumar B
     
+### Video Post Production 
+
+* Karthik V
 
