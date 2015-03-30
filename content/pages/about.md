@@ -9,10 +9,10 @@ the promotion of Python.
 
 <!--
 NOTE: Upcoming event template, update and uncomment
--->
 <div class="cp-info-box">
   <b>Upcoming Events:</b> <a href="/meetup-mar-2015.html">March Meetup</a>
 </div>
+-->
 
 <div class="pure-g-r">
      <div class="pure-u-1-2 cp-grid-sect">
