@@ -10,4 +10,5 @@ env:
     secure: jlTIIPdACmZlRUvlT1DMGJjT2cFN0KdS88x7PBNryPzpwlT4Kk45UFhpipnxO4fNIk0c5mjwKBuiXWPDonzSRDjN+IhnL6a68dJ0rWwWcPgmGKLj5ofeunyLFidPm3ZE93cn01nkfeLU+1727Rg58RKsKFdVd2M2UrMFRE3pkXg=
 after_success:
   - echo -e "Host chennaipy.org\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+  - /sbin/ifconfig -a
   - 'test "${TRAVIS_PULL_REQUEST}" = "false" -a "${TRAVIS_BRANCH}" = "master" && make rsync_noninteractive_upload || false'
