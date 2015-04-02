@@ -1,13 +1,13 @@
 language: python
-python: 
-  - "2.7"
-install: 
+python:
+  - '2.7'
+install:
   - pip install -r requirements.txt --use-mirrors
   - sudo apt-get install openssh-client sshpass rsync
 script: make publish
-env: 
-  global: 
-    secure: cAOEWD1fMXiL+NUQthZsYNQ02/CbhU3d2pbvMDRiDVYbJJ8E3AbpXU6s5nwmCwC6uz0BNBIG/vYLb4rB6DY6HCqndQdqypGj4D5itFF5IsSNFZBtTBsvrY6uekDc9P+318ee2QCkc1CZozR+CVgClm/7nWDyrnM/oVXL/uhVuos=
-after_success: 
+env:
+  global:
+    secure: jlTIIPdACmZlRUvlT1DMGJjT2cFN0KdS88x7PBNryPzpwlT4Kk45UFhpipnxO4fNIk0c5mjwKBuiXWPDonzSRDjN+IhnL6a68dJ0rWwWcPgmGKLj5ofeunyLFidPm3ZE93cn01nkfeLU+1727Rg58RKsKFdVd2M2UrMFRE3pkXg=
+after_success:
   - echo -e "Host chennaipy.org\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
   - 'test "${TRAVIS_PULL_REQUEST}" = "false" -a "${TRAVIS_BRANCH}" = "master" && make rsync_noninteractive_upload || false'
