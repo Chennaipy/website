@@ -43,7 +43,7 @@ Speaker Shrayas focused on IMAP, the imaplib in the python stdlib and
 specific Google extensions that make gmail accessible using the
 imaplib api. These extensions allow for searching using imaplib in a
 way similar to the search using gmail and using gmail labels using the
-MAPI protocol.
+IMAP protocol.
 
 After a brief networking tea break the next 3 lightning talks.
 
