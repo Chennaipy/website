@@ -94,3 +94,6 @@ experience on why he likes python followed by vote of thanks from
 Vijay Kumar.
 
 End of May edition
+
+Meeting minutes contributed by
+[Tamil Vannan](http://www.meetup.com/Chennaipy/members/107548842/).
