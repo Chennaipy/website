@@ -7,10 +7,10 @@ Chennaipy is a Python user-group, where Pythonistas in and around
 Chennai come together to share their knowledge and to contribute to
 the promotion of Python.
 
- <!-- <div class="message">NOTE: Upcoming event template, update and uncomment</div> -->
+ <!-- <div class="message">NOTE: Upcoming event template, update and uncomment</div>
 <div class="cp-info-box">
   <b>Upcoming Events:</b> <a href="http://www.meetup.com/Chennaipy/events/222732435/" target="_blank">June Meetup</a>
-</div>
+</div> -->
 
 
 <div class="pure-g-r">
@@ -57,15 +57,6 @@ the promotion of Python.
      <p><strong>Slack</strong><br/>
      <a href="http://bit.do/chennaipy-slack" target="_blank">Join</a> |
      <a href="http://chennaipy.slack.com" target="_blank">Discuss</a>
-     </p>
-     </div>
-     <div class="pure-u-1-2 cp-grid-sect">
-     <p>
-     <i class="fa fa-facebook fa-4x" style="color:#4099FF"></i>
-     </p>
-     <p><strong>Faceboook</strong><br/>
-     <a href="https://fb.com/" target="_blank">Join</a> |
-     <a href="https://fb.com/chennaipy" target="_blank">FB posts</a>
      </p>
      </div>
 </div>
