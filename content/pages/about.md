@@ -7,10 +7,10 @@ Chennaipy is a Python user-group, where Pythonistas in and around
 Chennai come together to share their knowledge and to contribute to
 the promotion of Python.
 
- <!-- <div class="message">NOTE: Upcoming event template, update and uncomment</div>
+ <!-- <div class="message">NOTE: Upcoming event template, update and uncomment</div> -->
 <div class="cp-info-box">
   <b>Upcoming Events:</b> <a href="http://www.meetup.com/Chennaipy/events/222732435/" target="_blank">June Meetup</a>
-</div> -->
+</div>
 
 
 <div class="pure-g-r">
