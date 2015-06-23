@@ -8,7 +8,7 @@ fa-check-square-o"></i> RSVP on Meetup</a>
 
 ## Date & Time
 
-  * 23th May
+  * 27th June
   * 3:00pm to 5:30pm
 
 ## Venue
@@ -24,10 +24,19 @@ Location map:
 
 ## Schedule
 
-  * Lightning Talks (40 min)
-  * Networking Tea sponsored by [Clay Labs](http://claylabs.com/) (30 min)
-  * Lightning Talks (40 min)
-  * Discussions (20 min)
+Schedule
+
+  * Writing Parsers in Python By Hand (20 min)
+
+  * Object Oriented Programming Paradigms in Python (20 min)
+
+  * Networking Tea sponsored by [Clay Labs](http://claylabs.com) (30 min)
+
+  * Building websites using Plone (20 min)
+
+  * Managing Jenkins with Python (20 min)
+
+  * Discussions
 
 ## Talks
 
