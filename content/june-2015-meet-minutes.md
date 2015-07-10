@@ -106,7 +106,7 @@ Jenkins than what I had expected.
 Suresh. I had a brief chit chat with him during the break and was
 playfully asking when we could have a next 'free for all' debate
 reminiscent of net-neutrality, the sportive person he is ; he replied
-something along the lines of he 'is ready for it provided Shreyas is
+something along the lines of he 'is ready for it provided Shrayas is
 also there'. That brought laughter across our faces and then
 discussions moved gently to Plone. Skipping to the actual talk, Suresh
 started with a basic overview on Plone which is a CMS system built
