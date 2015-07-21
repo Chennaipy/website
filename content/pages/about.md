@@ -9,7 +9,7 @@ the promotion of Python.
 
  <!-- <div class="message">NOTE: Upcoming event template, update and uncomment</div> -->
 <div class="cp-info-box">
-  <b>Upcoming Events:</b> <a href="http://www.meetup.com/Chennaipy/events/223800671/" target="_blank">July Meetup</a>
+  <b>Upcoming Events:</b> <a href="/meetup-july-2015.html">July Meetup</a>
 </div>
 
 
