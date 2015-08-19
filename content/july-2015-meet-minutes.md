@@ -1,7 +1,7 @@
 Title: July Meet Minutes
 Date: 2015-08-13 04:36
 Tags: Meeting Minutes
-Summary: <img src="http://photos2.meetupstatic.com/photos/event/a/e/c/c/event_440144748.jpeg" />
+Summary: <img src="http://photos2.meetupstatic.com/photos/event/a/0/b/a/event_440201146.jpeg" />
 
 Yet another chennaipy meetup with huge audience from different
 background.  This time RSVP hit was 128. Good too see lot of people
@@ -110,3 +110,11 @@ and told about his problem.  He suggested to use Python. After that he
 never stuck in his product development using Python.  The beauty of
 this talk his the way he narrated the entire story five minutes with
 lot of enthusiasm .
+
+## Group Photo
+
+<a
+href="http://photos2.meetupstatic.com/photos/event/b/0/b/0/highres_440201146.jpeg">
+<img
+src="http://photos2.meetupstatic.com/photos/event/a/0/b/a/600_440201146.jpeg"
+alt="Group Photo"/> </a>
