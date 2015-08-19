@@ -17,7 +17,7 @@ they don't understand in a talk and Google it to learn that.
 href="http://photos2.meetupstatic.com/photos/event/b/0/b/0/highres_440145232.jpeg">
 <img
 src="http://photos2.meetupstatic.com/photos/event/b/0/b/0/global_440145232.jpeg"
-alt="Vengatesh" style="float:top"/></a>
+alt="Vengatesh" /></a>
 
 
 As usual vengats favorite topic automating software's using python.
@@ -31,7 +31,7 @@ element ID to locate elements. He solved it using xpath.
 href="http://photos3.meetupstatic.com/photos/event/b/0/d/6/highres_440145270.jpeg">
 <img
 src="http://photos2.meetupstatic.com/photos/event/b/0/d/6/global_440145270.jpeg"
-alt="Gaurav" style="float:top"/></a>
+alt="Gaurav" /></a>
 
 Gaurav gave a talk on How pandas numpy and scylearn is used in data
 science. He analyzed various data based on Titanic disaster data.  If
@@ -44,7 +44,7 @@ know how much accurate his prediction.
 href="http://photos2.meetupstatic.com/photos/event/a/f/1/0/highres_440144816.jpeg">
 <img
 src="http://photos3.meetupstatic.com/photos/event/a/f/1/0/global_440144816.jpeg"
-alt="Vijay Kumar" style="float:top"/></a>
+alt="Vijay Kumar" /></a>
 
 
 Vijaykumar built a tiny git and showed us how git works.  In fact the
@@ -61,12 +61,12 @@ GIT](https://github.com/bravegnu/tiny-git)
 href="http://photos2.meetupstatic.com/photos/event/a/e/e/d/highres_440144781.jpeg">
 <img
 src="http://photos3.meetupstatic.com/photos/event/a/e/e/d/global_440144781.jpeg"
-alt="Shrayas" style="float:top"/> </a>
+alt="Shrayas" /> </a>
 <a
 href="http://photos1.meetupstatic.com/photos/event/a/e/f/6/highres_440144790.jpeg">
 <img
 src="http://photos4.meetupstatic.com/photos/event/a/e/f/6/global_440144790.jpeg"
-alt="Karthick" style="float:top"/></a>
+alt="Karthick" /></a>
 
 Shrayas and Karthick gave a combined presentation on PostgresSQL.
 
@@ -82,24 +82,24 @@ with traditional database like MySQL.
 
 ## Lightning Talk
 
+### Yogeswaran
+
 <a
 href="http://photos1.meetupstatic.com/photos/event/a/e/e/0/highres_440144768.jpeg">
 <img
 src="http://photos2.meetupstatic.com/photos/event/a/e/e/0/global_440144768.jpeg"
-alt="Yogi" style="float:top"/></a>
-
-1 . Yogeswaran
+alt="Yogi" /></a>
 
 Yogeswaran shared his experience about python podcast called [Talk
 python to me](http://talkpython.fm/)
+
+### Rajkumar
 
 <a
 href="http://photos3.meetupstatic.com/photos/event/a/e/d/4/highres_440144756.jpeg">
 <img
 src="http://photos4.meetupstatic.com/photos/event/a/e/d/4/global_440144756.jpeg"
-alt="Rajkumar" style="float:top"/></a>
-
-2 . Rajkumar
+alt="Rajkumar" /></a>
 
 Rajkumar who shared his journey to develop a software for Automobile
 industry from a non IT background. He quit TataMotors and started
