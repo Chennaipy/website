@@ -8,10 +8,6 @@ Chennai come together to share their knowledge and to contribute to
 the promotion of Python.
 
 <!--<div class="message">NOTE: Upcoming event template, update and uncomment</div>-->
-<div class="cp-info-box">
-  <b>Upcoming Events:</b> <a href="/meetup-aug-2015.html">August Meetup</a>
-</div>
-
 
 <div class="pure-g-r">
      <div class="pure-u-1-2 cp-grid-sect">
