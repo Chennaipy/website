@@ -66,7 +66,7 @@ alt="Shrayas" /> </a>
 href="http://photos1.meetupstatic.com/photos/event/a/e/f/6/highres_440144790.jpeg">
 <img
 src="http://photos4.meetupstatic.com/photos/event/a/e/f/6/global_440144790.jpeg"
-alt="Karthick" /></a>
+alt="Karthik" /></a>
 
 Shrayas and Karthick gave a combined presentation on PostgresSQL.
 
