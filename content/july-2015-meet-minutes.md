@@ -33,10 +33,10 @@ href="http://photos3.meetupstatic.com/photos/event/b/0/d/6/highres_440145270.jpe
 src="http://photos2.meetupstatic.com/photos/event/b/0/d/6/global_440145270.jpeg"
 alt="Gaurav" /></a>
 
-Gaurav gave a talk on how Pandas Numpy and ScyLearn is used in data
-science. He analyzed various data based on Titanic disaster data.  If
-I am right he uploaded the code to [kaggle](http://www.kaggle.com) to
-know how much accurate his prediction.
+Gaurav gave a talk on how Pandas Numpy and Scikit Learn is used in
+data science. He analyzed various data based on Titanic disaster data.
+If I am right he uploaded the code to [kaggle](http://www.kaggle.com)
+to know how much accurate his prediction.
 
 ## Building Git From Scratch
 
