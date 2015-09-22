@@ -74,6 +74,7 @@ actions. We shall explore the usage, and  implementation of free and open
 source Python based G-code visualization tools. For example: yagv [2].
 
 References: 
+
 [1] [G-code](https://en.wikipedia.org/wiki/G-code)
 
 [2] [yagv](https://github.com/jonathanwin/yagv)
