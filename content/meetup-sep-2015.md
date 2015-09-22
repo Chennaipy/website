@@ -9,9 +9,13 @@ class="fa fa-check-square-o"></i> RSVP on Meetup</a>
    * 3:00pm to 5:30pm
 
 ## Venue 
+
 Ramanujan Auditorium,
+
 IMSc, 
+
 C.I.T Campus, 4th Cross Street,
+
 Tharamani, Chennai.
 
 Location map: [http://www.google.com/maps?q=12.994337,80.247170](http://www.google.com/maps?q=12.994337,80.247170)
@@ -19,19 +23,19 @@ Location map: [http://www.google.com/maps?q=12.994337,80.247170](http://www.goog
 
 ## Schedule
 
-	* Getting started with Django (20 min)
+* Getting started with Django (20 min)
 
-	* Django Rest Framework (20 min)
+* Django Rest Framework (20 min)
 
-	* Networking Tea Break (30 min)
+* Networking Tea Break (30 min)
 
-	* G-code Visualization Tools (20 min)
+* G-code Visualization Tools (20 min)
 
-	* Building a sublime package/plugin using python (20 min)
+* Building a sublime package/plugin using python (20 min)
 
-	* Lightning Talks (20 min)
+* Lightning Talks (20 min)
 
-	* Discussion (20 min)
+* Discussion (20 min)
 
 ## Talks
 
@@ -49,17 +53,17 @@ Speaker: Jagadish Kumar
 
 The talk will cover the following topics:
 
-	* Frameworks Available
+* Frameworks Available
 
-	* Why Django Rest Framework
+* Why Django Rest Framework
 
-	* Getting started & basics
+* Getting started & basics
 
-	* Basic authentication & json web tokens
+* Basic authentication & json web tokens
 
-	* Bulk Operations
+* Bulk Operations
 
-	* Simple application which demos the above
+* Simple application which demos the above
 
 ### G-code Visualization Tools
 
@@ -71,6 +75,7 @@ source Python based G-code visualization tools. For example: yagv [2].
 
 References: 
 [1] [G-code](https://en.wikipedia.org/wiki/G-code)
+
 [2] [yagv](https://github.com/jonathanwin/yagv)
 
 
