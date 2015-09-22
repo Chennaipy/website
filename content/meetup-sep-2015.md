@@ -1,4 +1,6 @@
-Title: September Meetup Date: 2015-09-26 15:00 Tags: Events
+Title: September Meetup
+Date: 2015-09-22 00:00
+Tags: Events
 
 <a style="float:right;" class="pure-button"
 href="http://www.meetup.com/Chennaipy/events/225071826/" target="_blank"><i
