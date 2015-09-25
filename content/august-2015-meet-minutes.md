@@ -33,7 +33,7 @@ building his project and workarounds for the same. Though the talk ran over the
 allotted time, it was well received by the audience judging by the follow-up
 discussions during the break.
 
-## Paho Python client for MQQT
+## Paho Python client for MQTT
 
 <a
 href="http://photos2.meetupstatic.com/photos/event/2/8/0/4/highres_441250244.jpeg">
@@ -51,10 +51,10 @@ well-known face in the Chennai opensource space. Though the talk was originally
 scheduled for the next edition of the meetup, a last minute reorg helped the
 team to sneak in this talk in the current edition itself (to everyone's
 delight, if I may add!). Even though Shakthi started with requesting everyone
-to read the MQQT protocol docs for the details, he provided a good overview of
+to read the MQTT protocol docs for the details, he provided a good overview of
 the protocol and its high-level architecture thus providing a good background
 that made the rest of his talk easier to follow. He went onto explain the steps
-involved in installing and testing an open-source MQQT broker - Mosquitto.
+involved in installing and testing an open-source MQTT broker - Mosquitto.
 Finally the same tests were demonstrated using the Paho python client. He
 closed his talk with lot of references for further reading.
 
