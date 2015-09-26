@@ -61,4 +61,13 @@ the promotion of Python.
      <a href="http://chennaipy.slack.com" target="_blank">Discuss</a>
      </p>
      </div>
+     <div class="pure-u-1-2 cp-grid-sect">
+     <p>
+     <i class="fa fa-comments fa-4x" style="color:#55cc55"></i>
+     </p>
+     <p><strong>Chennai PyCon Mailing List</strong><br/>
+     <a href="http://chennaipy.org/mailman/listinfo/pycon_chennaipy.org" target="_blank">Join</a> |
+     <a href="http://chennaipy.org/pipermail/pycon_chennaipy.org/" target="_blank">Archives</a>
+     </p>
+     </div>
 </div>
