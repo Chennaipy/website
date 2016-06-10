@@ -27,7 +27,7 @@ Since the tea is little bit late we continued with next session.
 
 ## Code Optimization in Python
 
-The second talk is given by Ashok on Code Optimization.  He started
+The second talk was given by Ashok on Code Optimization.  He started
 the session by asking questions related to Optimization like Why
 optimization is require ? Where we need to apply this concept ?  What
 are all the things we need take care in Optimization ?  He explained
