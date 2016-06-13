@@ -17,7 +17,7 @@ requirement for setting up Celery like choosing a broker (RabbitMq or
 Redis etc). He explained the advantages and disadvantages of those
 brokers. Then he started explaining a prototype written by him.  I was
 not available after some 4 slides since myself and Vengatesh left to
-alert tea for networking tea.
+check the status of snacks and tea for the networking break.
 
 ## Short Introduction by every one.
 
