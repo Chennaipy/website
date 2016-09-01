@@ -1,6 +1,6 @@
 Title: August Meet Minutes
 Date: 2016-08-29 11:39
-Tags Meeting Minutes
+Tags: Meeting Minutes
 
 The non-stop drizzle, the quiet IMSc environment and vibrant
 pythonistas set the context and expectations for the August
