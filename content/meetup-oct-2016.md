@@ -3,7 +3,7 @@ Date: 2016-10-17 20:20
 Tags: Events
 
 <a style="float:right;" class="pure-button"
-href="http://www.meetup.com/Chennaipy/events/231855236/" target="_blank"><i class="fa
+href="http://www.meetup.com/Chennaipy/events/234639862/" target="_blank"><i class="fa
 fa-check-square-o"></i> RSVP on Meetup</a>
 
 
