@@ -1,9 +1,16 @@
 Title: November Meet Minutes
 Date: 2017-01-02 09:00
 Tags: Meeting Minutes
+Summary: <img src="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/1/3/2/e/global_456424910.jpeg" alt=""/> <img src="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/1/3/6/9/global_456424969.jpeg" alt=""/> <img src="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/1/4/4/e/global_456425198.jpeg" alt=""/>
 
-## Welcome note by Vijay Kumar (Embedded software developer)
 
+## Welcome note by Vijay Kumar
+
+<a
+href="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/1/3/2/e/600_456424910.jpeg">
+<img
+src="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/1/3/2/e/event_456424910.jpeg"
+alt="Section of members gathered"/> </a>
 
 ## First talk: GIT repository by Vijay Kumar
 
@@ -29,6 +36,12 @@ Reference:
   * [https://git-scm.com/documentation](https://git-scm.com/documentation)
 
 ## Second talk: OpenCV by Mohan Raj (MIT research fellow)
+
+<a
+href="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/1/3/6/9/600_456424969.jpeg">
+<img
+src="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/1/3/6/9/event_456424969.jpeg"
+alt="Mohan Raj presenting his topic"/> </a>
 
 Take aways:
 
@@ -62,9 +75,19 @@ Reference:
 
 ## Networking Tea break sponsored by Zilogic Systems
 
+<a href="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/1/4/2/9/600_456425161.jpeg">
+<img src="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/1/4/2/9/event_456425161.jpeg" alt="Discussion over tea"/>
+</a>
+
 Get to know People with varied background.
 
 ## Third talk on AsyncIO Programming: by Yogesh Dujodwala
+
+<a
+href="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/1/4/4/e/600_456425198.jpeg">
+<img
+src="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/1/4/4/e/event_456425198.jpeg"
+alt="Yogesh presenting his topic"/> </a>
 
   1. What is Async IO
 
@@ -73,7 +96,6 @@ Get to know People with varied background.
   3. AsyncIO on Python 3.5 as library
 
   4. AsyncIO for efficiency in WebServers
-
 
 References:
 
