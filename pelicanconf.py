@@ -39,7 +39,7 @@ DEFAULT_PAGINATION = False
 
 THEME = "theme"
 COVER_IMG_URL = "/static/images/vkottam.jpg"
-
+LOGO_IMG_URL = "/static/images/logo.png"
 STATIC_PATHS = ["static"]
 
 MENUITEMS = [
