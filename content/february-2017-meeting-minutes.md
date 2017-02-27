@@ -21,8 +21,8 @@ Shrayas started by building on the basics to introduce more advanced concepts la
 - Dynamic Typing vs Static Typing
     - General myth that static has types and dynamic means no types
     - He explained that both actually have types.
-    - Static languages get to know about the type at runtime
-    - Dynamic languages get to know about the type at compile time
+    - Static languages get to know about the type at compile time
+    - Dynamic languages get to know about the type at runtime
     - He then showed examples where errors where caught during compile time in C# but went undetected until runtime in Python
 
 - Advantages and Disadvantages of both based on the following criteria
@@ -90,7 +90,7 @@ Gaurav went over the following:-
     - Matplot lib dynamic plots using changes in real time data
     - opencv
 
-### Networking Tea Break
+### Networking Tea Break sponsored by [InkMonk](http://inkmonk.com/)
 
 ### YAML Validation in Python by Vijay Kumar
 
