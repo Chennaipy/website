@@ -1,8 +1,16 @@
 Title: Feb 2017 Meetup Minutes
 Date: 2017-02-25 15:00
 Tags: Meeting Minutes
+Summary: <img src="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/c/4/a/global_458703146.jpeg" alt=""/> <img src="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/c/6/8/global_458703176.jpeg" alt=""/> <img src="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/c/3/a/global_458703130.jpeg" alt=""/>
 
 ### A Gentle Intro to Types by Shrayas Rajagopal
+
+<a
+href="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/c/4/a/600_458703146.jpeg">
+<img
+src="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/c/4/a/event_458703146.jpeg"
+alt="Shrayas Presenting his Talk"/> </a>
+
 Shrayas started by building on the basics to introduce more advanced concepts later on.
 - What are types?
     - Class of value
@@ -92,6 +100,12 @@ Gaurav went over the following:-
 
 ### Networking Tea Break sponsored by [InkMonk](http://inkmonk.com/)
 
+<a
+href="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/c/6/8/600_458703176.jpeg">
+<img
+src="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/c/6/8/event_458703176.jpeg"
+alt="Section of members gathered"/> </a>
+
 ### YAML Validation in Python by Vijay Kumar
 
 - He quicly went over the basics
@@ -147,7 +161,15 @@ He spoke about his broad top level views on Machine Learning.
 - Helps in intuition to data driven decisions
 
 ### Credits
+
 Vijay thanked Inkmonk for sponsoring the venue and Zilogic Systems for sponsoring the projector.
 
 ### Group Photo
+
+<a
+href="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/c/3/a/600_458703130.jpeg">
+<img
+src="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/c/3/a/event_458703130.jpeg"
+alt="Group Photo"/> </a>
+
 

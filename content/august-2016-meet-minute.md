@@ -1,6 +1,7 @@
 Title: August Meet Minutes
 Date: 2016-08-29 11:39
 Tags: Meeting Minutes
+Summary: <img src="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/5/1/c/4/global_453560932.jpeg" alt=""/> <img src="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/5/1/d/b/global_453560955.jpeg" alt=""/> <img src="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/5/2/6/f/global_453561103.jpeg" alt=""/>
 
 The non-stop drizzle, the quiet IMSc environment and vibrant
 pythonistas set the context and expectations for the August
@@ -21,6 +22,11 @@ lighting talk, taking to the stage with no slides and preparation
 within few minutes summons respect and appreciation.
 
 ## An introduction to Flask by Hafizul Azeez
+
+<a
+href="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/5/1/c/4/600_453560932.jpeg"><img
+src="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/5/1/c/4/event_453560932.jpeg"
+alt="Hafizul Azeez Presenting His Topic"/></a>
 
 As an emergency talk, Azeez gave a brief description of Flask and how
 it can be used for rapid application development. Azeez highlighted
@@ -53,6 +59,11 @@ speakers arrive) lightning talk but turned to be a 20 minute talk.
    as per schedule.
 
 ## Computer Vision with Deep Learning by Manish Shivanandhan
+
+<a
+href="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/5/1/b/3/600_453560915.jpeg"><img
+src="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/5/1/b/3/event_453560915.jpeg"
+alt="Manish Presenting His Topic"/></a>
 
 Manish started with an introduction of deep learning and how machine
 learning and deep learning differs. Machine learning is more of
@@ -109,6 +120,11 @@ learning and bitten by Manish's enthusiasm.
 
 ## Behaviour Driven Development by Naren Ravi
 
+<a
+href="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/5/1/d/b/600_453560955.jpeg"><img
+src="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/5/1/d/b/event_453560955.jpeg"
+alt="Nare Presenting His Topic"/></a>
+
 Naren provided the background of the talk with a short description of
 what Behaviour Driven Development (BDD) is all about - i.e. testing
 the code with the user in mind and meeting the expectation of the
@@ -151,6 +167,11 @@ The meetup ended with Vijay thanking the venue and networking over tea
 sponsors, speakers and the rest who made the meetup a successful
 event. He also asked attendees to register in the mailing list to keep
 abreast of the happenings in the Chennaipy community.
+
+<a
+href="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/5/2/6/f/600_453561103.jpeg"/><img
+src="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/5/2/6/f/event_453561103.jpeg"
+alt="Group Photo"/></a>
 
 ## Credits
 
