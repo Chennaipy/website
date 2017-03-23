@@ -1,6 +1,7 @@
 Title: January 2017 Meetup Minutes
 Date: 2017-01-28 15:00
 Tags: Meeting Minutes
+Summary: <img src="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/1/f/c/1/event_459368129.jpeg" alt=""/>
 
 ### PyShark in Network Packet Analysis by Rengaraj
 Rengaraj's talk covered a way to analyse network requests in Python. He also explained about tools that PyShark is built on.
@@ -74,3 +75,5 @@ Shrayas gave insights that might help a programmer while choosing between a func
 Vijay and Shrayas also stressed on the fact that functions and classes are better than global variables.
 
 ### Group Photo
+
+<img src="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/1/f/c/1/600_459368129.jpeg" alt="Group Photo"/></img>

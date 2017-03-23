@@ -1,7 +1,7 @@
 Title: May Meet Minutes
 Date: 2016-06-10 11:49
 Tags: Meeting Minutes
-
+Summary: <img src="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/1/7/3/4/global_450545940.jpeg" alt=""/> <img src="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/1/7/1/3/global_450545907.jpeg" alt=""/> <img src="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/1/7/5/1/global_450545969.jpeg" alt=""/>
 
 After a long time we were back to IMSc Ramanujam auditorium.  The
 meetup Intro was given by Abhishek.
@@ -35,7 +35,16 @@ profiling in python and gave some reference.
 
 ## Networking Tea Break
 
+<a
+href="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/1/7/1/3/600_450545907.jpeg"><img
+src="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/1/7/1/3/event_450545907.jpeg"
+alt="Networking Tea"/></a>
+
 ## Deep Learning with Tensor Flow
+
+<a href="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/1/7/3/4/600_450545940.jpeg"><img
+src="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/1/7/3/4/event_450545940.jpeg"
+alt="Talk on Tensor Flow"/></a>
 
 The third talk was about Tensor Flow by Manish.  He explained how
 Tensor Flow can use GPU to compute expressions in parallel.  If my
@@ -49,3 +58,8 @@ his hand written neural network application code to tensor flow.
 
 Thanks to Vengatesh, Vinoth and Reegan for coordinating Networking
 over tea.  Thanks Abhisek for hosting.
+
+<a
+href="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/1/7/5/1/600_450545969.jpeg"><img
+src="https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/1/7/5/1/event_450545969.jpeg"
+alt="Group Photo"/></a>
