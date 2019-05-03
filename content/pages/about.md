@@ -8,11 +8,13 @@ Chennai come together to share their knowledge and to contribute to
 the promotion of Python.
 
 
-<!-- <div class="message">NOTE: Upcoming event template, update and uncomment</div>
+<!-- <div class="message">NOTE: Upcoming event template, update and uncomment</div> -->
 <div class="cp-info-box">
-  <b>Upcoming Events:</b> <a href="/meetup-dec-2016.html">December Meetup</a>
+  <b>Upcoming Events: </b> <a href="https://in.pycon.org/2019/">PyCon India 2019, Chennai</a>
+  <br>
+  <b>CFP is now Open: </b> <a href="https://in.pycon.org/2019/cfp.html"> CFP </a>
 </div> 
--->
+
 
 
 
