@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/Chennaipy/website.svg?branch=master)](https://travis-ci.org/Chennaipy/website)
 
-This is the repo for the Chennai Python User Group's website
+This is the repo for the Chennai Python User Group's website at
 [http://chennaipy.org](http://chennaipy.org). The site is built
 using Pelican, a static site generator, powered by Python. The
 site's theme is based on [Pure Pelican Theme](https://github.com/PurePelicanTheme/pure-single).
