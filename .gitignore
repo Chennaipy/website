@@ -1,7 +1,6 @@
 ### Project specific ###
 
 cache/
-output/
 *.pid
 
 # Created by https://www.gitignore.io
@@ -78,7 +77,8 @@ Session.vim
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*

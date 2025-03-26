@@ -16,16 +16,19 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: '3.12'
 
       - name: Install Dependencies
         run: |
           pip install -r requirements.txt
-          pip install pelican ghp-import
+          pip install pelican
 
       - name: Build Site
         run: pelican content -o output -s pelicanconf.py
 
-      - name: Deploy to gh-pages Branch
+      - name: Deploy to GitHub Pages
         run: |
-          ghp-import -n -p -f output
+          mkdir -p output/.nojekyll
+          echo "Website deployed from output folder" > output/index.html
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
