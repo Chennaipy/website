@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = u'Vijay Kumar B.'
 SITENAME = u'Chennaipy'
 TAGLINE = u'Chennai Python User Group'
-SITEURL = 'https://numbers0689.github.io/'
+SITEURL = 'https://numbers0689.github.io/website'
 FAVICON_URL = 'https://www.python.org/static/favicon.ico'
 
 SITE_LICENSE = 'Text is available under the Creative Commons Attribution-ShareAlike License.'
@@ -43,11 +43,11 @@ LOGO_IMG_URL = "/static/images/logo.png"
 STATIC_PATHS = ["static"]
 
 MENUITEMS = [
-    ("Events", "tag/events.html"),
-    ("Meeting Minutes", "tag/meeting-minutes.html"),
-    ("Credits", "pages/credits.html"),
-    ("Team", "pages/team.html"),
-    ("General Announcements", "tag/general-announcements.html"),
+    ("Events", "/website/tag/events.html"),
+    ("Meeting Minutes", "/website/tag/meeting-minutes.html"),
+    ("Credits", "/website/pages/credits.html"),
+    ("Team", "/website/pages/team.html"),
+    ("General Announcements", "/website/tag/general-announcements.html"),
 ]
 
 #
