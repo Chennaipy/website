@@ -11,7 +11,7 @@ FAVICON_URL = 'https://www.python.org/static/favicon.ico'
 SITE_LICENSE = 'Text is available under the Creative Commons Attribution-ShareAlike License.'
 
 PATH = 'content'
-
+OUTPUT_PATH = 'output/'
 TIMEZONE = 'Asia/Kolkata'
 
 DEFAULT_LANG = u'en'

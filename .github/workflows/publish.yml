@@ -1,0 +1,31 @@
+name: Deploy Pelican to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install Dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install pelican ghp-import
+
+      - name: Build Site
+        run: pelican content -o output -s pelicanconf.py
+
+      - name: Deploy to gh-pages Branch
+        run: |
+          ghp-import -n -p -f output
