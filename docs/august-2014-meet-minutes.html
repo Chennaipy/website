@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <title>Chennaipy - August Meet Minutes</title>
+      <meta charset="utf-8" />
+      <meta name="generator" content="Pelican" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+    <meta name="tags" content="Meeting Minutes" />
+
+  </head>
+
+  <body>
+      <header>
+          <hgroup><h1><a href="https://numbers0689.github.io/website/">Chennaipy</a></h1></hgroup>
+          <nav><ul>
+              <li><a href="/website/tag/events.html">Events</a></li>
+              <li><a href="/website/tag/meeting-minutes.html">Meeting Minutes</a></li>
+              <li><a href="/website/pages/credits.html">Credits</a></li>
+              <li><a href="/website/pages/team.html">Team</a></li>
+              <li><a href="/website/tag/general-announcements.html">General Announcements</a></li>
+                <li><a href="https://numbers0689.github.io/website/index.html" >Welcome!</a></li>
+                <li><a href="https://numbers0689.github.io/website/pages/credits.html" >Credits</a></li>
+                <li><a href="https://numbers0689.github.io/website/pages/team.html" >Team</a></li>
+                <li><a href="https://numbers0689.github.io/website/category/misc.html"  aria-current="page" >misc</a></li>
+          </ul></nav>
+      </header>
+      <main>
+  <article>
+    <header>
+      <h2>
+        <a href="https://numbers0689.github.io/website/august-2014-meet-minutes.html" rel="bookmark"
+           title="Permalink to August Meet Minutes">August Meet Minutes</a></h2>
+      
+    </header>
+    <p>This time around we had about 14 members attending the meet. The meet
+started with the first talk -- "Unit Tests with Nose".</p>
+<h2>Unit Tests with Nose</h2>
+<p>Vengatesh presented the various features of nose framework, comparing
+them with the 'unittest' module present in the standard library. He
+showed how the nose framework did not require us to create a separate
+class for writing simple test functions, but still allowed for
+providing test fixtures through decorators. He also should how more
+complex test cases can be defined through test classes and test
+packages. He then listed the plugins available with the nose
+framework, and demonstrated the usage of the coverage plugin.</p>
+<p>That brought us almost to the end of the talk, the next talk was "API
+Documentation with Sphinx and Napoleon".</p>
+<h2>API Documentation with Sphinx and Napoleon</h2>
+<p>Aadhithyan explained the usage of Sphinx and Napoleon. He showed:</p>
+<ol>
+<li>How Sphinx can be invoked using the 'sphinx-quickstart' command.</li>
+<li>The purpose of various files and folders created by the command.</li>
+<li>How the Napoleon plugin can be enabled, in the 'config.py' file.</li>
+<li>How the 'sphinx-apidoc' is to be invoked to create the
+     reStructuredText files from the python modules.</li>
+<li>How the 'make' is to be invoked to create the html files from the
+     reStructuredText</li>
+</ol>
+<p>He demonstrated the above instructions with a simple Python module,
+and more complex example, exercising all the features of the Google
+docstring convention.</p>
+<p>The discussion then moved on to, how the Google docstring convention
+was better than the default one in Sphinx. With the Google docstring
+convention, the docstring was both human readable and machine
+readable.</p>
+<p>That brought us to the end of the talk. The next talk was on "Brython".</p>
+<h2>Brython</h2>
+<p>Vijay started off by explaining that Brython was a Python to Javascript
+compiler written in Javascript. This allowed Python programs to be
+executed within a browser. He then demonstrated an example Hello
+World program shown below. When the HTML file was opened in a browser,
+the "Hello World" message appeared in the Javascript console.</p>
+<div class="highlight"><pre><span></span><code><span class="nt">&lt;html&gt;</span>
+<span class="w">  </span><span class="nt">&lt;head&gt;</span>
+<span class="w">    </span><span class="nt">&lt;title&gt;</span>Brython<span class="w"> </span>Example<span class="nt">&lt;/title&gt;</span>
+<span class="w">    </span><span class="nt">&lt;script</span><span class="w"> </span><span class="na">src=</span><span class="s">&quot;brython/brython.js&quot;</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="w">  </span><span class="nt">&lt;/head&gt;</span>
+<span class="w">  </span><span class="nt">&lt;body</span><span class="w"> </span><span class="na">onload=</span><span class="s">&quot;brython()&quot;</span><span class="nt">&gt;</span>
+<span class="w">    </span><span class="nt">&lt;script</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;text/python&quot;</span><span class="nt">&gt;</span>
+<span class="w">    </span>print(&quot;Hello<span class="w"> </span>World&quot;)
+<span class="w">    </span><span class="nt">&lt;/script&gt;</span>
+<span class="w">    </span><span class="nt">&lt;h1&gt;</span>Brython<span class="w"> </span>Example<span class="nt">&lt;/h1&gt;</span>
+<span class="w">  </span><span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div>
+
+<p>He then modified the program step by step adding more and more
+features, till it became an arithmetic quiz.</p>
+<p>Step 1. Display the "Hello World" message within the HTML page,
+  instead of the Javascript console.</p>
+<p>Step 2. Use a separate file for the Python script, using 'src'
+  attribute of the 'script' tag.</p>
+<p>Step 3. Display an arithmetic quiz question, with an input box.</p>
+<p>Step 4. Verify the answer entered, and display the next question.</p>
+<p>Step 5. Cleanup previous questions, before displaying the next
+  question.</p>
+<p>He then showed an example of paddle ball game, again building it step
+by step from scratch. This time he used the canvas HTML element, to do
+the graphics.</p>
+<p>He concluded his talk with some real world use-cases for Brython. One
+of the use-cases he showed was the Reeborg's World
+http://reeborg.ca/index_en.html</p>
+<h2>Asciinema</h2>
+<p>Rengaraj did a quick lightning talk on Asciinema, an open source
+solution for recording terminal sessions. Rengaraj recorded a terminal
+session uploaded it to Asciinema, played it back on Asciinema's
+website. The recording, it seems, captures the VT100 escape sequences
+instead of the on-screen pixels, which is what a conventional screen
+capture program does. The advantage:</p>
+<ol>
+<li>Uploads are terribly fast.</li>
+<li>Download and playback is fast.</li>
+<li>No blurring in the playback.</li>
+</ol>
+<h2>Merger with Pych</h2>
+<p>Vijay then provided an update on the merger with Pych. It seems that
+Pych, was conceived to develop open source software using Python. And
+Sam from Pych believes that their goals are much different from a
+Python User Group, and it would be better for them to be a separate
+entity.</p>
+<p>But, since Pych is also organizing monthly meets, Vijay suggested that
+we go with bi-monthly meets to avoid duplicating efforts. And the
+members gathered agreed that this should be OK. He also suggested that
+we spend the spare time that we get out of reducing the meetings, be
+used to develop content for workshops and to organize workshops.</p>
+<p>A few other suggestions that members came up with, were to create
+meetup.com group for Chennaipy. Vijay agreed that, a meetup group
+would be useful, and said he will be creating one for Chennaipy
+shortly.</p>
+    <footer>
+      <p>Published: <time datetime="2014-08-27T02:05:00+05:30">
+        Wed 27 August 2014
+      </time></p>
+        <address>
+          By             <a href="https://numbers0689.github.io/website/author/vijay-kumar-b.html">Vijay Kumar B.</a>
+        </address>
+        <p>
+          Category: <a href="https://numbers0689.github.io/website/category/misc.html">misc</a>
+        </p>
+        <p>
+          Tags:
+            <a href="https://numbers0689.github.io/website/tag/meeting-minutes.html">Meeting Minutes</a>
+        </p>
+    </footer>
+  </article>
+      </main>
+      <footer>
+          <address>
+            Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>,
+            which takes great advantage of <a rel="nofollow" href="https://www.python.org/">Python</a>.
+          </address>
+      </footer>
+  </body>
+</html>
