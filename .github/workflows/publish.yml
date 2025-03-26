@@ -16,19 +16,19 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: '3.x'
 
       - name: Install Dependencies
         run: |
           pip install -r requirements.txt
-          pip install pelican
 
       - name: Build Site
-        run: pelican content -o output -s pelicanconf.py
+        run: pelican content -o docs -s pelicanconf.py
 
-      - name: Deploy to GitHub Pages
+      - name: Commit and Push to /docs
         run: |
-          mkdir -p output/.nojekyll
-          echo "Website deployed from output folder" > output/index.html
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add docs
+          git commit -m "Update generated site" || echo "No changes to commit"
+          git push
