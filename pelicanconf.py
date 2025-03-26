@@ -43,11 +43,11 @@ LOGO_IMG_URL = "/static/images/logo.png"
 STATIC_PATHS = ["static"]
 
 MENUITEMS = [
-    ("Events", "tag/events.html"),
-    ("Meeting Minutes", "tag/meeting-minutes.html"),
-    ("Credits", "pages/credits.html"),
-    ("Team", "pages/team.html"),
-    ("General Announcements", "tag/general-announcements.html"),
+    ("Events", "/tag/events.html"),
+    ("Meeting Minutes", "/tag/meeting-minutes.html"),
+    ("Credits", "/pages/credits.html"),
+    ("Team", "/pages/team.html"),
+    ("General Announcements", "/tag/general-announcements.html"),
 ]
 
 #
