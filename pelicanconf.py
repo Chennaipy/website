@@ -38,16 +38,16 @@ DEFAULT_PAGINATION = False
 #RELATIVE_URLS = True
 
 THEME = "theme"
-COVER_IMG_URL = "/static/images/vkottam.jpg"
-LOGO_IMG_URL = "/static/images/logo.png"
+COVER_IMG_URL = "static/images/vkottam.jpg"
+LOGO_IMG_URL = "static/images/logo.png"
 STATIC_PATHS = ["static"]
 
 MENUITEMS = [
-    ("Events", "/website/tag/events.html"),
-    ("Meeting Minutes", "/website/tag/meeting-minutes.html"),
-    ("Credits", "/website/pages/credits.html"),
-    ("Team", "/website/pages/team.html"),
-    ("General Announcements", "/website/tag/general-announcements.html"),
+    ("Events", "tag/events.html"),
+    ("Meeting Minutes", "tag/meeting-minutes.html"),
+    ("Credits", "pages/credits.html"),
+    ("Team", "pages/team.html"),
+    ("General Announcements", "tag/general-announcements.html"),
 ]
 
 #
