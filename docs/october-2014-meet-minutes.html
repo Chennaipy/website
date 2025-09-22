@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chennaipy, Chennai Python User Group">
+
+
+        <title>October Meet Minutes // Chennaipy // Chennai Python User Group</title>
+
+    <link href="https://www.python.org/static/favicon.ico" rel="icon">
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.3.0/pure-min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://chennaipy.github.io/website/theme/css/pure.css">
+    <link rel="stylesheet" href="https://chennaipy.github.io/website/static/css/custom.css">
+    <link rel="stylesheet" href="https://chennaipy.github.io/website/theme/css/pygments.css">
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fitvids/1.0.1/jquery.fitvids.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".content").fitVids();
+        });
+    </script>
+</head>
+
+<body>
+    <div class="pure-g-r" id="layout">
+        <div class="sidebar pure-u">
+            <div class="cover-img" style="background-image: url('/static/images/vkottam.jpg')">
+                <img src="/static/images/logo.png">
+                <div class="cover-body">
+                    <header class="header">
+                        <hgroup>
+                            <h1 class="brand-main"><a href="/">Chennaipy</a></h1>
+                            <p class="tagline">Chennai Python User Group</p>
+                                <p class="links"><a href="https://chennaipy.github.io/website//website/tag/events.html">Events</a></p>
+                                <p class="links"><a href="https://chennaipy.github.io/website//website/tag/meeting-minutes.html">Meeting Minutes</a></p>
+                                <p class="links"><a href="https://chennaipy.github.io/website//website/pages/credits.html">Credits</a></p>
+                                <p class="links"><a href="https://chennaipy.github.io/website//website/pages/team.html">Team</a></p>
+                                <p class="links"><a href="https://chennaipy.github.io/website//website/tag/general-announcements.html">General Announcements</a></p>
+                                <p class="social">
+                                    <a href="http://meetup.com/chennaipy/">
+                                        <i class="fa fa-group fa-3x"></i>
+                                    </a>
+                                    <a href="https://mail.python.org/mailman/listinfo/chennaipy">
+                                        <i class="fa fa-comments fa-3x"></i>
+                                    </a>
+                                    <a href="http://twitter.com/chennaipy">
+                                        <i class="fa fa-twitter fa-3x"></i>
+                                    </a>
+                                    <a href="feeds/all.atom.xml">
+                                        <i class="fa fa-rss fa-3x"></i>
+                                    </a>
+                                <p>
+                        </hgroup>
+                    </header>
+                </div>
+            </div>
+        </div>
+    <div class="pure-u">
+        <div class="content">
+            <section class="post">
+                <header class="post-header">
+                    <h1>October Meet Minutes</h1>
+                        <p class="post-meta">
+                            // under                                 <a class="post-category" href="https://chennaipy.github.io/website/tag/meeting-minutes.html">Meeting Minutes</a>
+                        </p>
+                </header>
+            </section>
+            <h2>Python Test Automation</h2>
+<p><a
+href="http://photos2.meetupstatic.com/photos/event/4/b/5/d/highres_432439293.jpeg"><img
+src="http://photos2.meetupstatic.com/photos/event/4/b/5/d/event_432439293.jpeg"
+alt="Krishnan Explaining" style="float: right"></img></a></p>
+<p>The first talk of the evening was given by Krishnan in Python Test
+Automation. He explained how Python could be used for all types of
+testing - web testing, GUI testing, functional testing, unit testing,
+embedded testing etc. He explained how Python was a good choice for
+test automation, because it allowed you to use the same language for
+all the different types of testing, in contrast to specific automation
+test software, each specialised in one type of testing, and each
+requiring a different tool language to be learnt.</p>
+<p>He then went on to list useful python modules for testing, some of which are </p>
+<ul>
+<li><code>shutil</code> - for copying files quickly</li>
+<li><code>subprocess</code> - for running another process from your program, and
+    monitoring its status, getting and using its output</li>
+<li><code>pexpect</code> - for interacting with console applications</li>
+<li><code>logging</code> - for logging, but where u can specify different levels of
+    errors, like debug, error, warning and critical</li>
+<li><code>unittest</code> - for writing unit tests </li>
+<li><code>regex</code> - </li>
+<li><code>pep8</code> and <code>pylint</code> - for checking if your source code confirms to
+    python coding standards</li>
+<li><code>traceback</code> and <code>pdb</code> - standard python debugging libraries to step
+    through your code.</li>
+<li><code>pywinauto</code> - for automating windows tasks, including installations!</li>
+</ul>
+<p>Two other interesting things mentioned were image based automation and
+the difference between unittests and integration tests.</p>
+<p>In image based automation you automate windows tasks like clicking a
+shortcut, emptying the recycle bin by getting the object you want to
+automate by searching for it through its image, rather than through
+the windows API or some other dictionary/list.</p>
+<p>Unit tests are where you check each and every part of the code
+separately for its functionality, error conditions etc. Integration
+testing is where you check one module of the code for its ability to
+work properly with other outside objects. Each module then acts like a
+black box, and you are more concerned about its working with other
+modules rather than how the module itself works ie: whats inside the
+black box</p>
+<h2>Docopt</h2>
+<p><a
+href="http://photos2.meetupstatic.com/photos/event/4/c/3/8/highres_432439512.jpeg"><img
+src="http://photos2.meetupstatic.com/photos/event/4/c/3/8/event_432439512.jpeg"
+alt="Rengaraj Explaining" style="float: right"></img></a></p>
+<p>The second talk was given by Rengaraj on Docopt. Docopt is a python
+module used to generate an interface for your command line
+application. it also automatically generates a parser for it. I had
+some confusion on where this module could be used, so I went back home
+and checked it out. Basically, you can use it to easily create a
+command line program where you can give options like -v, -x -u and -uv
+following your command. The great thing about Docopt is that it will
+then create a dictionary with your options as keys and the options the
+user put as values to those keys, so that you can easily find out the
+user input commands were. Its much much easier than other similar
+functional modules like optparse. The only thing to remember with
+Docopt is that the usage format has to be in the POSIX format for it
+to work</p>
+<h2>Building Embedded Systems with Twisted</h2>
+<p><a
+href="http://photos2.meetupstatic.com/photos/event/5/3/8/9/highres_432441385.jpeg"><img
+src="http://photos2.meetupstatic.com/photos/event/5/3/8/9/event_432441385.jpeg"
+alt="Vijay Explaining" style="float: right"></img></a></p>
+<p>The last talk was given by Vijay Kumar on a problem he solved at his
+company using Python and some embedded hardware. He explained how at
+his company they were faced with the problem of keeping track of who
+had borrowed common resources and of getting the person who had
+borrowed it to return the resource after he/she had used it. After
+trying simple solutions like keeping a notebook, reminding people, and
+finding that they did not work, they finally decided to use a tech
+solution. They used an RFID reader and put an RFID tag on each
+resource and linked it to a server so that they would know who had
+borrowed which resource. Python was used to interface and talk to the
+hardware, which included a reed switch, RFID reader, and the
+server. The Python framework used was Twisted, and one interesting
+thing was the idea of an event driven framework, instead of a blocking
+read/write framework. It was nice to see the actual hardware, software
+and also a video of the system in action! Vijay also showed us the
+state machine of the system which showed the various states of the
+system and how it changed depending on the users actions.</p>
+<h2>Credits</h2>
+<ul>
+<li>Venue Coordinator: Shrinivasan </li>
+<li>Networking over Tea, Sponsor: Clay Labs </li>
+<li>Marketing: Krishnan Shankar, Prasanna Venkadesh, Chintu Philips, Shrinivasan </li>
+<li>Photographs: Krishnan Shankar, Kenash Kanagaraj </li>
+<li>Minutes: Harsha</li>
+</ul>
+            <a href="#" class="go-top">Go Top</a>
+<footer class="footer">
+    <p>Text is available under the Creative Commons Attribution-ShareAlike License. &ndash;
+        Built with <a href="https://github.com/PurePelicanTheme/pure-single">Pure Theme</a>
+        for <a href="http://blog.getpelican.com/">Pelican</a>
+    </p>
+</footer>        </div>
+    </div>
+    </div>
+    <script>
+        var $top = $('.go-top');
+
+        // Show or hide the sticky footer button
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 200) {
+                $top.fadeIn(200);
+            } else {
+                $top.fadeOut(200);
+            }
+        });
+
+        // Animate the scroll to top
+        $top.click(function(event) {
+            event.preventDefault();
+            $('html, body').animate({scrollTop: 0}, 300);
+        })
+
+        // Makes sure that the href="#" attached to the <a> elements
+        // don't scroll you back up the page.
+        $('body').on('click', 'a[href="#"]', function(event) {
+            event.preventDefault();
+        });
+    </script>
+
+</body>
+</html>

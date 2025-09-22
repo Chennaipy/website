@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chennaipy, Chennai Python User Group">
+
+
+        <title>May 2018 Meetup Minutes // Chennaipy // Chennai Python User Group</title>
+
+    <link href="https://www.python.org/static/favicon.ico" rel="icon">
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.3.0/pure-min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://chennaipy.github.io/website/theme/css/pure.css">
+    <link rel="stylesheet" href="https://chennaipy.github.io/website/static/css/custom.css">
+    <link rel="stylesheet" href="https://chennaipy.github.io/website/theme/css/pygments.css">
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fitvids/1.0.1/jquery.fitvids.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".content").fitVids();
+        });
+    </script>
+</head>
+
+<body>
+    <div class="pure-g-r" id="layout">
+        <div class="sidebar pure-u">
+            <div class="cover-img" style="background-image: url('/static/images/vkottam.jpg')">
+                <img src="/static/images/logo.png">
+                <div class="cover-body">
+                    <header class="header">
+                        <hgroup>
+                            <h1 class="brand-main"><a href="/">Chennaipy</a></h1>
+                            <p class="tagline">Chennai Python User Group</p>
+                                <p class="links"><a href="https://chennaipy.github.io/website//website/tag/events.html">Events</a></p>
+                                <p class="links"><a href="https://chennaipy.github.io/website//website/tag/meeting-minutes.html">Meeting Minutes</a></p>
+                                <p class="links"><a href="https://chennaipy.github.io/website//website/pages/credits.html">Credits</a></p>
+                                <p class="links"><a href="https://chennaipy.github.io/website//website/pages/team.html">Team</a></p>
+                                <p class="links"><a href="https://chennaipy.github.io/website//website/tag/general-announcements.html">General Announcements</a></p>
+                                <p class="social">
+                                    <a href="http://meetup.com/chennaipy/">
+                                        <i class="fa fa-group fa-3x"></i>
+                                    </a>
+                                    <a href="https://mail.python.org/mailman/listinfo/chennaipy">
+                                        <i class="fa fa-comments fa-3x"></i>
+                                    </a>
+                                    <a href="http://twitter.com/chennaipy">
+                                        <i class="fa fa-twitter fa-3x"></i>
+                                    </a>
+                                    <a href="feeds/all.atom.xml">
+                                        <i class="fa fa-rss fa-3x"></i>
+                                    </a>
+                                <p>
+                        </hgroup>
+                    </header>
+                </div>
+            </div>
+        </div>
+    <div class="pure-u">
+        <div class="content">
+            <section class="post">
+                <header class="post-header">
+                    <h1>May 2018 Meetup Minutes</h1>
+                        <p class="post-meta">
+                            // under                                 <a class="post-category" href="https://chennaipy.github.io/website/tag/meeting-minutes.html">Meeting Minutes</a>
+                        </p>
+                </header>
+            </section>
+            <h3>Brief intro on the meetup by Vijay</h3>
+<p>The purpose of the meetup is to network with other python enthusiasts
+and to get inspired by the various talks. The talks also provide some
+exposure to the different facets of development and the various
+problems that are being tackled. A meetup is not a workshop.</p>
+<h3>Talk 1: How python is making astrophysical research easier</h3>
+<p>By Manjari Bagchi, Professor at IMSc</p>
+<ul>
+<li>
+<p>Used python for her research!!! Wants to generate interest in
+    astrophysics. Studies cold dead stars that emit radio waves thanks
+    to their magnetic fields</p>
+</li>
+<li>
+<p>They are also known neutron stars - about 10 times heavier than
+    the sun - very dense and regular gravitational physics cannot be
+    used to explain their gravitational behavior? (not clear how they
+    are different from black holes)</p>
+</li>
+<li>
+<p>Require huge dishes to capture data. Uses python for data analysis</p>
+</li>
+<li>
+<p>First encounter in 2010 - to analyze pulsar data</p>
+</li>
+<li>
+<p>Was using unix command line utilities to do this - basically shell
+    scripting. used the sigproc package developed by her mentor.</p>
+</li>
+<li>
+<p>Popular library - astropy</p>
+</li>
+<li>
+<p>There were some interesting asto terms that we were exposed to -
+    right ascension, galactic center, declination etc</p>
+</li>
+<li>
+<p>Showed a few examples -</p>
+<ol>
+<li>
+<p>A file contained latitudes and longitudes of areas of interest
+   which exhibited strong radio bursts. Python3 script to read
+   this data and plot the positions on the globe - 3d earth image
+   projects on to a 2d oval shaped earth on the screen. Used galpy
+   for plotting(matplotlib?)</p>
+</li>
+<li>
+<p>Downloaded some data on a nebula captured by the Hubble
+   telescope. Python script was used to plot this data.</p>
+</li>
+<li>
+<p>Astro plan - have the coordinate of most of the stars. Based on
+   that and the longitude, latitude and time in a particular
+   location this module will tell us if if that star is observable
+   or not, rise time, set time and a trajectory</p>
+</li>
+<li>
+<p>galpy - a module for galactic dynamics</p>
+</li>
+</ol>
+</li>
+</ul>
+<p>Call for contribution!!! Project SKA - Square Kilometer Array. Huge
+sets of telescopes etc in Australia and South Africa are used to
+capture data. Entire world is involved in this project. A lot of
+programming is required for this. Those interested can contact her</p>
+<p>Link to the National Center for Radio Astrophysics (also contains
+links to the SKA Indian team???)
+http://www.ncra.tifr.res.in/ncra/main</p>
+<h3>Talk 2: Introduction to NLP &amp; Spacy</h3>
+<p>By Vishal / Student @SSN</p>
+<ul>
+<li>
+<p>Natural Language Processing - parsing and mining information from
+    natural language(as it is spoken or written)</p>
+</li>
+<li>
+<p>2 libraries in python - NLTK and Spacy NLTK - created in Stanford
+    purely for educational purposes. Its only for English.</p>
+</li>
+<li>
+<p>spaCy</p>
+<ul>
+<li>Supports more than 28 languages</li>
+<li>Much faster than NLTK. </li>
+<li>Developed for the industry</li>
+<li>Uses a lot of memory (RAM)</li>
+</ul>
+</li>
+<li>
+<p>Terms</p>
+<ul>
+<li>Corpus - large data set for training and experimenting.</li>
+<li>NLTK has a lot of built in corpora</li>
+</ul>
+</li>
+<li>
+<p>Basic Pre-processing</p>
+<ol>
+<li>Convert everything to lower case.</li>
+<li>regex - to extract specific data out (remove dates from a text)</li>
+<li>Provision to handle special characters and encoding</li>
+<li>Tokenization break it down to chunks that can be processed </li>
+<li>Stopword elimination</li>
+</ol>
+</li>
+<li>
+<p>Language Based Pre-processing</p>
+<ul>
+<li>POS - parts of speech - tagging each work as a noun/verb/ajective etc </li>
+<li>Stemming and lemmantization - get to the original word </li>
+<li>stemming -car cars, car's invariably mean car</li>
+<li>lematizer - more useful, allows you to get words that do not
+  have any common alphabets,but actually mean the same</li>
+</ul>
+</li>
+<li>
+<p>Dived into code</p>
+<ul>
+<li>An example of NLTK and spaCy were shown.</li>
+</ul>
+</li>
+</ul>
+<h3>Talk 3: Sultan and Errbot (last months lightning talk expanded upon)</h3>
+<p>By Samuel Vijaykumar (Freshworks)</p>
+<ul>
+<li>
+<p>Interacting with server via chat e.g Ask chatty? - what is the
+     status of a particular build, current load on the server</p>
+</li>
+<li>
+<p>ChatOps - currently used for managing infastructure. Devops
+     through chatting -but not limited to it, usage limited by your
+     imagination.</p>
+</li>
+<li>
+<p>Before developing, requirements were</p>
+<ul>
+<li>Conversational - not yet reached NLP</li>
+<li>Operational - manage operations based on user rights and security</li>
+<li>Extensible</li>
+<li>Pythonic</li>
+</ul>
+</li>
+<li>
+<p>Demo</p>
+<ul>
+<li>create a slack channel, a plugin will allow you to execute your commands</li>
+<li>errbot to create a bot.</li>
+<li>sultan python library to ssh to servers and execute commands/
+   also create agents that act on your behalf?</li>
+<li>bot configuration</li>
+<li>BACK END - points to slack </li>
+<li>BOT_IDENTITY - points to the slack channel?</li>
+</ul>
+</li>
+</ul>
+<h3>Lightning Talks</h3>
+<p>Lightning Talk by #Prasanth for microservices - lambda on aws and an
+alternative project called pywren to help with scaling.</p>
+<h3>Group Photo</h3>
+<p><img src="https://secure.meetupstatic.com/photos/event/7/3/a/a/600_472109610.jpeg" alt="Group Photo"/></img></p>
+            <a href="#" class="go-top">Go Top</a>
+<footer class="footer">
+    <p>Text is available under the Creative Commons Attribution-ShareAlike License. &ndash;
+        Built with <a href="https://github.com/PurePelicanTheme/pure-single">Pure Theme</a>
+        for <a href="http://blog.getpelican.com/">Pelican</a>
+    </p>
+</footer>        </div>
+    </div>
+    </div>
+    <script>
+        var $top = $('.go-top');
+
+        // Show or hide the sticky footer button
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 200) {
+                $top.fadeIn(200);
+            } else {
+                $top.fadeOut(200);
+            }
+        });
+
+        // Animate the scroll to top
+        $top.click(function(event) {
+            event.preventDefault();
+            $('html, body').animate({scrollTop: 0}, 300);
+        })
+
+        // Makes sure that the href="#" attached to the <a> elements
+        // don't scroll you back up the page.
+        $('body').on('click', 'a[href="#"]', function(event) {
+            event.preventDefault();
+        });
+    </script>
+
+</body>
+</html>
