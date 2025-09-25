@@ -5,7 +5,12 @@ from __future__ import unicode_literals
 AUTHOR = u'Vijay Kumar B.'
 SITENAME = u'Chennaipy'
 TAGLINE = u'Chennai Python User Group'
-SITEURL = 'https://numbers0689.github.io/website'
+
+# the site URL used for production; change as needed
+# Update your username and repo name
+#SITEURL = 'https://{username}.github.io/{repo_name}/'
+
+# optional external favicon URL (kept for reference)
 FAVICON_URL = 'https://www.python.org/static/favicon.ico'
 
 SITE_LICENSE = 'Text is available under the Creative Commons Attribution-ShareAlike License.'
@@ -35,12 +40,21 @@ SOCIAL = (('group', 'http://meetup.com/chennaipy/'),
 DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# RELATIVE_URLS = True
 
 THEME = "theme"
 COVER_IMG_URL = "static/images/vkottam.jpg"
 LOGO_IMG_URL = "static/images/logo.png"
-STATIC_PATHS = ["static"]
+
+# --- STATIC PATHS & EXTRA PATH METADATA (added to serve favicon at site root) ---
+# include 'extra' so we can copy items (like favicon.ico) to the output root
+STATIC_PATHS = ["static", "extra"]
+
+# map content/extra/favicon.ico -> output_root/favicon.ico
+EXTRA_PATH_METADATA = {
+    'extra/favicon.ico': {'path': 'favicon.ico'},
+}
+# ---------------------------------------------------------------------------
 
 MENUITEMS = [
     ("Events", "tag/events.html"),
@@ -57,4 +71,3 @@ MENUITEMS = [
 SLUGIFY_SOURCE = "basename"
 
 CUSTOM_CSS = "static/css/custom.css"
-
