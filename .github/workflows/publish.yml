@@ -1,0 +1,46 @@
+name: Convert and Publish with Pelican
+
+on:
+  push:
+    branches:
+      - master
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install Dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Build Site with Pelican
+        run: pelican content -o docs -s pelicanconf.py
+
+      - name: Create .nojekyll
+        run: touch docs/.nojekyll
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add docs
+          if ! git diff --cached --quiet; then
+            git commit -m "Update generated site"
+            git push origin master
+          else
+            echo "No changes detected. Skipping commit and push."
+          fi
