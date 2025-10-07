@@ -13,8 +13,8 @@ from pelicanconf import *
 SITEURL = 'https://chennaipy.org'
 
 THEME = "theme"
-COVER_IMG_URL = "static/images/vkottam.jpg"
-LOGO_IMG_URL = "static/images/logo.png"
+COVER_IMG_URL = "/static/images/vkottam.jpg"
+LOGO_IMG_URL = "/static/images/logo.png"
 
 
 RELATIVE_URLS = False
