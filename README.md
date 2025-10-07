@@ -5,7 +5,7 @@
 This is the repo for the Chennai Python User Group's website
 [http://chennaipy.org](http://chennaipy.org). The site is built
 using Pelican, a static site generator, powered by Python. The
-site's theme is based on [Pure Pelican Theme](https://github.com/PurePelicanTheme/pure-single).
+site's theme is based on [Pure Pelican Theme](https://github.com/dkua/pure-single).
 
 ## Find us
 
@@ -17,7 +17,7 @@ site's theme is based on [Pure Pelican Theme](https://github.com/PurePelicanThem
 
 ### Prerequisites
 
-Python 3.8+
+Python 3.9+
 
 ### Using UV (Recommended)
 
@@ -38,12 +38,12 @@ UV is a fast Python package installer and resolver.
   [Fork](https://github.com/Chennaipy/website/fork) the repository to your account
 so that you have your copy of the website.
 
+While fork provide **chennaipy-website** as a repo name
+
 #### Clone repo
 
-        $ git clone --recursive git@github.com:<your-username>/website.git chennaipy-website
-<br>
+        $ git clone --recursive https://github.com/<your-username>/chennaipy-website.git
 
-        $ git submodule update --init --recursive
   
   This will clone the repository on to your system and clone the submodules inside
 it as well recursively. Additionally, the folder to which it will be cloned to
@@ -52,6 +52,7 @@ is called `chennaipy-website`.
 #### Set up the project with UV
 
         $ cd chennaipy-website
+        $ git submodule update --init --recursive
         $ uv venv
         $ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
