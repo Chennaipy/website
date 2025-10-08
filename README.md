@@ -27,11 +27,15 @@ UV is a fast Python package installer and resolver.
 
 * For macOS and Linux
 
-        $ curl -LsSf https://astral.sh/uv/install.sh | sh
+````shell
+        curl -LsSf https://astral.sh/uv/install.sh | sh
+````
 
 * For windows
 
-        $ powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+````shell
+        powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+````
 
 #### Fork repo
 
@@ -42,36 +46,56 @@ While fork provide **chennaipy-website** as a repo name
 
 #### Clone repo
 
-        $ git clone --recursive https://github.com/<your-username>/chennaipy-website.git
-
+````shell
+        git clone --recursive https://github.com/<your-username>/chennaipy-website.git
+````
   
   This will clone the repository on to your system and clone the submodules inside
 it as well recursively. Additionally, the folder to which it will be cloned to
 is called `chennaipy-website`.
 
-#### Set up the project with UV
+#### Set up the project
 
-        $ cd chennaipy-website
-        $ git submodule update --init --recursive
-        $ uv venv
-        $ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+````shell
+        cd chennaipy-website
+````
 
-#### Install the project with UV (this will install dependencies and set up the web command)
+````shell
+        git submodule update --init --recursive
+````
 
+````shell
+        uv venv
+````
+
+````shell
+        source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+````
+
+#### Install the project with UV
+
+````shell
         $ uv sync
+````
 
 #### Start the server
 
+````shell
+
         $ uv run dev
+````
 
   Or specify a custom port:
 
+````shell
+
         $ uv run dev -p 3000
+````
 
 #### Visit local site
 
   Open up your web browser and point it to [http://localhost:8000](http://localhost:8000) to see the site
-running locally. Yay!
+running locally.
 
 ## Contributing
 
