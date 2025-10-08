@@ -7,20 +7,20 @@ name = "chennaipy-website"
 version = "1.0.0"
 description = "Chennai Python User Group Website"
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.9"
 dependencies = [
-    "blinker",
-    "docutils",
-    "feedgenerator",
-    "Jinja2",
-    "Markdown",
-    "MarkupSafe",
-    "pelican",
-    "Pygments",
-    "python-dateutil",
-    "pytz",
-    "six",
-    "Unidecode",
+    "blinker==1.9.0",
+    "docutils==0.22.2",
+    "feedgenerator==2.2.1",
+    "Jinja2==3.1.6",
+    "Markdown==3.9",
+    "MarkupSafe==3.0.3",
+    "pelican==4.11.0",
+    "Pygments==2.18.0",
+    "python-dateutil==2.9.0.post0",
+    "pytz==2025.2",
+    "six==1.17.0",
+    "Unidecode==1.4.0",
 ]
 
 [project.scripts]

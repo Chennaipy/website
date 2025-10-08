@@ -59,7 +59,7 @@ def dev_command(port=8000):
     try:
         # Start Pelican
         pelican = subprocess.Popen([
-            sys.executable, "-m", "pelican", "--debug", "--autoreload", "-r",
+            sys.executable, "-m", "pelican", "--autoreload", "-r",
             "content", "-o", "output", "-s", "pelicanconf.py"
         ])
         processes.append(pelican)

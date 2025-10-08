@@ -28,23 +28,23 @@ link.
 
 After the meetup if you want to contribute the Meeting minutes, please refer the below steps
 
-- Check the issue [here](https://github.com/Chennaipy/website/issues) for MoM
 - Fork the website and run locally. For more details refer [here](README.md#setup-for-local-development)
 - Create MoM. refer this section to create file
 
 
 ---
 
-## How to create MoM file
+## How to create Minutes of Meeting (MoM)
 
 We are using pelican to generate the website. 
-When creating MoM file we need to follow few simple format
+When creating MoM file we need to follow few simple guidelines
 
 ``File name : {month}_{year}_meetings_notes.md``
 
-The file content should start with **Title, Date and Tags**  are very importnat
-
-Recommanded MoM format
+The file content should start with **Title, Date and Tags**  are very importnat.\
+Find the **recommended format** for preparing Minutes of Meeting (MoM).\
+You may write it in **your own words and style**. \
+We **discourage the usage of Gen AI tool** to generate the MoM.
 
 ````md
 Title: April Meet Minutes
@@ -76,5 +76,4 @@ Tags: Meeting Minutes
 Meeting minutes contributed by [your_name](your_preferred_link)
 
 ````
-
 We look forward to your contributions. Cheers!
