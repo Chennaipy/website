@@ -28,13 +28,13 @@ UV is a fast Python package installer and resolver.
 * For macOS and Linux
 
 ````shell
-        curl -LsSf https://astral.sh/uv/install.sh | sh
+curl -LsSf https://astral.sh/uv/install.sh | sh
 ````
 
 * For windows
 
 ````shell
-        powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ````
 
 #### Fork repo
@@ -47,7 +47,7 @@ While fork provide **chennaipy-website** as a repo name
 #### Clone repo
 
 ````shell
-        git clone --recursive https://github.com/<your-username>/chennaipy-website.git
+git clone --recursive https://github.com/<your-username>/chennaipy-website.git
 ````
   
   This will clone the repository on to your system and clone the submodules inside
@@ -57,39 +57,37 @@ is called `chennaipy-website`.
 #### Set up the project
 
 ````shell
-        cd chennaipy-website
+cd chennaipy-website
 ````
 
 ````shell
-        git submodule update --init --recursive
+git submodule update --init --recursive
 ````
 
 ````shell
-        uv venv
+uv venv
 ````
 
 ````shell
-        source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 ````
 
 #### Install the project with UV
 
 ````shell
-        $ uv sync
+uv sync
 ````
 
 #### Start the server
 
 ````shell
-
-        $ uv run dev
+uv run dev
 ````
 
   Or specify a custom port:
 
 ````shell
-
-        $ uv run dev -p 3000
+uv run dev -p 3000
 ````
 
 #### Visit local site
