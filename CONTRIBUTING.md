@@ -39,7 +39,9 @@ After the meetup if you want to contribute the Meeting minutes, please refer the
 We are using pelican to generate the website. 
 When creating MoM file we need to follow few simple guidelines
 
-``File name : {month}_{year}_meetings_notes.md``
+Meeting minutes files are placed under `content/meeting_minutes/`
+
+``File name : {yyyy}_{mm}_mom.md``
 
 The file content should start with **Title, Date and Tags**  are very importnat.\
 Find the **recommended format** for preparing Minutes of Meeting (MoM).\
