@@ -5,7 +5,7 @@
 This is the repo for the Chennai Python User Group's website
 [http://chennaipy.org](http://chennaipy.org). The site is built
 using Pelican, a static site generator, powered by Python. The
-site's theme is based on [Pure Pelican Theme](https://github.com/PurePelicanTheme/pure-single).
+site's theme is based on [Pure Pelican Theme](https://github.com/dkua/pure-single).
 
 ## Find us
 
@@ -15,37 +15,87 @@ site's theme is based on [Pure Pelican Theme](https://github.com/PurePelicanThem
 
 ## Setup for local development
 
-* Fork repo
+### Prerequisites
+
+Python 3.9+
+
+### Using UV (Recommended)
+
+UV is a fast Python package installer and resolver.
+
+#### Install UV (if you haven't already)
+
+* For macOS and Linux
+
+````shell
+        curl -LsSf https://astral.sh/uv/install.sh | sh
+````
+
+* For windows
+
+````shell
+        powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+````
+
+#### Fork repo
 
   [Fork](https://github.com/Chennaipy/website/fork) the repository to your account
 so that you have your copy of the website.
 
-* Clone repo
+While fork provide **chennaipy-website** as a repo name
 
-        $ git clone --recursive git@github.com:<your-username>/website.git chennaipy-website
+#### Clone repo
 
+````shell
+        git clone --recursive https://github.com/<your-username>/chennaipy-website.git
+````
+  
   This will clone the repository on to your system and clone the submodules inside
 it as well recursively. Additionally, the folder to which it will be cloned to
 is called `chennaipy-website`.
 
-* Set up a virtual env in that folder and activate it
+#### Set up the project
 
-        $ cd <repo>
-        $ virtualenv env
-        $ source env/bin/activate
+````shell
+        cd chennaipy-website
+````
 
-* Install the requirements using `pip` from inside the virtual environment
+````shell
+        git submodule update --init --recursive
+````
 
-        (env)$ pip install -r requirements.txt
+````shell
+        uv venv
+````
 
-* Start the server
+````shell
+        source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+````
 
-        make devserver
+#### Install the project with UV
 
-* Visit local site
+````shell
+        $ uv sync
+````
+
+#### Start the server
+
+````shell
+
+        $ uv run dev
+````
+
+  Or specify a custom port:
+
+````shell
+
+        $ uv run dev -p 3000
+````
+
+#### Visit local site
 
   Open up your web browser and point it to [http://localhost:8000](http://localhost:8000) to see the site
-running locally. Yay!
+running locally.
 
 ## Contributing
 

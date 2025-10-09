@@ -4,6 +4,11 @@ cache/
 output/
 *.pid
 
+### UV and Python environments ###
+.venv/
+.uv/
+uv.lock
+
 # Created by https://www.gitignore.io
 
 ### Python ###
@@ -136,5 +141,4 @@ tramp
 [Bb]in
 [Ii]nclude
 [Ll]ib
-[Ss]cripts
 

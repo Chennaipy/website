@@ -43,8 +43,8 @@ DEFAULT_PAGINATION = False
 # RELATIVE_URLS = True
 
 THEME = "theme"
-COVER_IMG_URL = "static/images/vkottam.jpg"
-LOGO_IMG_URL = "static/images/logo.png"
+COVER_IMG_URL = "/static/images/vkottam.jpg"
+LOGO_IMG_URL = "/static/images/logo.png"
 
 # --- STATIC PATHS & EXTRA PATH METADATA (added to serve favicon at site root) ---
 # include 'extra' so we can copy items (like favicon.ico) to the output root
@@ -70,4 +70,4 @@ MENUITEMS = [
 #
 SLUGIFY_SOURCE = "basename"
 
-CUSTOM_CSS = "static/css/custom.css"
+CUSTOM_CSS = "/static/css/custom.css"
