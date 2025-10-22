@@ -1,0 +1,45 @@
+/*
+ * This is the custom CSS for the chennaipy.org website.
+ * The cp- prefix is used for classes defined over here.
+ */
+
+/*
+ * Used to smoothen fonts out on the page. Refer to Issue #28 for more details
+ */
+*
+{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*
+ * Used in the front page, to display a icon grid, with information and links.
+ */
+.cp-grid-sect {
+    text-align: center;
+    padding: 1em;
+}
+
+/*
+ * Used in the front page, to highlight an upcoming event.
+ */
+.cp-info-box {
+    border-top: 3px solid #99f;
+    border-bottom: 3px solid #99f;
+    padding: 1em 1em;
+}
+
+/* Hero button custom style */
+.not-prose.hx\:bg-primary-600 {
+    background-color: #3b82f6 !important; /* Light blue color */
+    border-radius: 8px !important; /* Less rounded corners */
+}
+
+.not-prose.hx\:hover\:bg-primary-700:hover {
+    background-color: #2563eb !important; /* Slightly darker blue on hover */
+}
+
+.not-prose.hx\:focus\:ring-primary-300:focus {
+    --tw-ring-color: #3b92f5 !important; /* Light blue ring on focus */
+    border-radius: 8px !important; /* Consistent rounded corners for focus ring */
+}

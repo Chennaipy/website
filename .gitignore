@@ -1,7 +1,7 @@
 ### Project specific ###
-docs/
 cache/
 output/
+public/
 *.pid
 
 ### UV and Python environments ###

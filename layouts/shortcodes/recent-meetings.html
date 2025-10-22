@@ -1,0 +1,45 @@
+{{/* layouts/shortcodes/recent-meetings.html
+   Minimal + responsive cards only. Use inside hextra/feature-grid or standalone.
+   Usage: {{< recent-meetings n="3" section="meeting_minutes" >}}
+*/}}
+
+{{ $n := 3 }} {{ with .Get "n" }}{{ $n = int . }}{{ end }}
+{{ $section := default "meeting_minutes" (.Get "section") }}
+{{ $pages := first $n (sort (where .Site.RegularPages "Section" $section) "Date" "desc") }}
+
+<style>
+/* tiny responsive fallback if not inside feature-grid */
+.rm-grid{display:grid;grid-template-columns:repeat(1,1fr);gap:1rem}
+@media(min-width:640px){.rm-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1024px){.rm-grid{grid-template-columns:repeat(3,1fr)}}
+.rm-card{display:flex;flex-direction:column;justify-content:space-between;padding:1rem;border-radius:1rem;background:var(--card-bg,#f5f5f5);box-shadow:0 1px 6px rgba(0,0,0,0.04);transition:background-color .3s}
+.dark .rm-card{background:#1a1a1a;box-shadow:0 1px 6px rgba(0,0,0,0.1)}
+.rm-icon{width:44px;height:44px;display:flex;align-items:center;justify-content:center;border-radius:10px;background:#f0f7ff;color:#0b66d0;margin-bottom:0.75rem;transition:background-color .3s,color .3s}
+.dark .rm-icon{background:#2a4d69;color:#60a5fa}
+.rm-cta{padding:0.5rem 0.9rem;background:#3b92f5;color:#fff;border-radius:0.5rem;text-decoration:none;font-weight:500;transition:background-color .3s}
+.dark .rm-cta{background:#2563eb}
+</style>
+
+{{ if gt (len $pages) 0 }}
+  <div class="rm-grid">
+    {{ range $pages }}
+      <article class="rm-card">
+        <div>
+          <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:0.75rem">
+            <div class="rm-icon" aria-hidden="true" style="margin-bottom:0">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            </div>
+            <a href="{{ .RelPermalink }}" class="rm-title" style="text-decoration:none;color:inherit"><h3 style="margin:0;font-size:1.05rem">{{ .Title }}</h3></a>
+          </div>
+          {{ with cond .Params.summary .Params.summary (or .Summary "") }}<p style="margin:0 0 .6rem .0;color:#4b5563;font-size:.95rem">{{ . | plainify | truncate 140 }}</p>{{ end }}
+        </div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-top:0.6rem">
+          <time style="font-size:.85rem;color:#6b7280">{{ .Date.Format "02 Jan 2006" }}</time>
+          <a href="{{ .RelPermalink }}" class="rm-cta">Read notes →</a>
+        </div>
+      </article>
+    {{ end }}
+  </div>
+{{ else }}
+  <p>No meeting notes found.</p>
+{{ end }}
