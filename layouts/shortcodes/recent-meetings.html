@@ -1,10 +1,10 @@
 {{/* layouts/shortcodes/recent-meetings.html
    Minimal + responsive cards only. Use inside hextra/feature-grid or standalone.
-   Usage: {{< recent-meetings n="3" section="meeting_minutes" >}}
+   Usage: {{< recent-meetings n="3" section="meetups" >}}
 */}}
 
 {{ $n := 3 }} {{ with .Get "n" }}{{ $n = int . }}{{ end }}
-{{ $section := default "meeting_minutes" (.Get "section") }}
+{{ $section := default "meetups" (.Get "section") }}
 {{ $pages := first $n (sort (where .Site.RegularPages "Section" $section) "Date" "desc") }}
 
 <style>

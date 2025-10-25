@@ -12,7 +12,7 @@ enableRobotsTXT = true
 
 # Configure content sections
 [permalinks]
-  meetups = "/meetups-mom/:year/:month/:day/"
+  meetups = "/meetups/mom/:year/:month/:day/"
 
 # Configure taxonomies
 [taxonomies]

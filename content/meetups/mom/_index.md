@@ -3,7 +3,7 @@ title: "Meeting Minutes"
 layout: "list"
 description: "Meeting minutes from ChennaiPy meetups and community blog posts"
 sidebar:
-  open: false
+  open: true
 ---
 
 Welcome to our collection of meeting minutes from ChennaiPy meetups and community blog posts. Here you'll find detailed reports from our monthly meetups, including talk summaries, speaker information, and community updates.

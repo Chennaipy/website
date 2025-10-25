@@ -16,7 +16,7 @@ layout: hextra-home
   </p>
 </div>
 
-{{<  recent-meetings  n="3"  section="meeting_minutes"  >}}
+{{<  recent-meetings  n="3"  section="meetups"  >}}
 
 <div class="hx:mt-8"></div>
 
@@ -41,7 +41,7 @@ layout: hextra-home
     title="Meeting Archives"
     icon="document-text"
     subtitle="Browse through our comprehensive archive of past meeting minutes and presentations."
-    link="/meeting_minutes/"
+    link="/meetups/mom/"
     class="hx:aspect-auto hx:min-h-[200px] hx:sm:min-h-[220px]"
   >}}
 {{< /hextra/feature-grid >}}
