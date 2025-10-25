@@ -12,7 +12,7 @@ enableRobotsTXT = true
 
 # Configure content sections
 [permalinks]
-  meeting_minutes = "/blog/:year/:month/:title/"
+  meeting_minutes = "/meeting_minutes/:year/:month/:title/"
 
 # Configure taxonomies
 [taxonomies]
