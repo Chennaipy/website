@@ -5,4 +5,4 @@ sidebar:
   open: false
 ---
 
-Event announcements and details from ChennaiPy events held in 2014.
+Event announcements and details from Chennaipy events held in 2014.
