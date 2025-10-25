@@ -1,0 +1,101 @@
+{{/* layouts/shortcodes/upcoming-event.html */}}
+{{ $event := .Site.Data.upcoming_event.upcoming }}
+
+{{/* Check if event date has passed */}}
+{{ $dateHasPassed := false }}
+{{ if and $event $event.date }}
+  {{/* Parse date format "DD-MM-YYYY" and convert to "YYYY-MM-DD" for comparison */}}
+  {{ $dateParts := split $event.date "-" }}
+  {{ $day := index $dateParts 0 }}
+  {{ $month := index $dateParts 1 }}
+  {{ $year := index $dateParts 2 }}
+  
+  {{/* Create date string for comparison (YYYY-MM-DD) */}}
+  {{ $eventDate := (printf "%s-%s-%s" $year $month $day) }}
+  {{ $now := now.Format "2006-01-02" }}
+  
+  {{/* Check if date has passed (strictly before today) */}}
+  {{ if lt $eventDate $now }}
+    {{ $dateHasPassed = true }}
+  {{ end }}
+{{ end }}
+
+{{/* Show upcoming event button if event exists and date hasn't passed */}}
+{{ if and $event $event.date $event.title (ne $event.title "") (not $dateHasPassed) }}
+  <div class="text-center mt-8">
+    <div style="
+      border: 2px solid #0066cc;
+      border-radius: 0.75rem;
+      padding: 1.5rem;
+      display: inline-block;
+      width: 100%;
+      max-width: 600px;">
+      
+      <a href="{{ $event.link }}"
+         target="_blank"
+         rel="noopener noreferrer"
+         class="hx-button hx-primary"
+         style="
+           display: inline-block;
+           padding: 0.75rem 1.5rem;
+           background-color: #0066cc;
+           color: white;
+           text-decoration: none;
+           border-radius: 0.5rem;
+           font-weight: 500;
+           transition: background-color 0.2s ease;
+           margin-bottom: 0.75rem;">
+        Join our upcoming October Meetup
+      </a>
+      
+      {{/* Extract date information from title for display */}}
+      {{ $titleParts := split $event.title " - " }}
+      {{ if gt (len $titleParts) 1 }}
+        <div style="margin-top: 0.75rem; font-size: 0.95rem; color: #333;">
+          {{ $dateTimeStr := index $titleParts 1 }}
+          <p style="margin: 0; display: inline-flex; align-items: center; gap: 0.5rem;">
+            &#x1F4C5; {{ $dateTimeStr }}
+          </p>
+        </div>
+      {{ end }}
+      
+      {{/* Display venue information if available */}}
+      {{ if and $event.venue (ne $event.venue "") }}
+        <div style="margin-top: 0.5rem; font-size: 0.95rem; color: #555;">
+          {{ if and $event.venue_link (ne $event.venue_link "") }}
+            <a href="{{ $event.venue_link }}" 
+               target="_blank" 
+               rel="noopener noreferrer"
+               style="color: #0066cc; text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem;">
+              &#x1F4CD; {{ $event.venue }}
+            </a>
+          {{ else }}
+            <p style="margin: 0; display: inline-flex; align-items: center; gap: 0.5rem;">
+              &#x1F4CD; {{ $event.venue }}
+            </p>
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>
+  </div>
+{{ else }}
+  {{/* Show "Join Our Meetup" button if no upcoming event or date has passed */}}
+  <div class="text-center mt-8">
+    <a href="https://www.meetup.com/chennaipy/"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="hx-button hx-primary"
+       style="
+         display: inline-block;
+         padding: 0.75rem 1.5rem;
+         background-color: #0066cc;
+         color: white;
+         text-decoration: none;
+         border-radius: 0.5rem;
+         font-weight: 500;
+         transition: background-color 0.2s ease;
+         margin: 0.5rem;">
+      Join Our Meetup
+    </a>
+  </div>
+{{ end }}

@@ -1,100 +1,99 @@
-# Chennaipy Website
+# ChennaiPy Website
 
-[![Build Status](https://travis-ci.org/Chennaipy/website.svg?branch=master)](https://travis-ci.org/Chennaipy/website)
-
-This is the repo for the Chennai Python User Group's website
-[http://chennaipy.org](http://chennaipy.org). The site is built
-using Pelican, a static site generator, powered by Python. The
-site's theme is based on [Pure Pelican Theme](https://github.com/dkua/pure-single).
+Static website for the Chennai Python User Group (ChennaiPy), built with the Hugo static site generator and the Hextra theme.
 
 ## Find us
 
-* [Meetup.com](http://www.meetup.com/chennaipy/)
-* [Mailing list](https://mail.python.org/mailman/listinfo/chennaipy)
-* [Twitter](http://twitter.com/chennaipy)
+- Meetup: <https://www.meetup.com/chennaipy/>
+- Mailing list: <https://mail.python.org/mailman/listinfo/chennaipy>
+- X (Twitter): <https://twitter.com/chennaipy>
 
 ## Setup for local development
 
 ### Prerequisites
 
-Python 3.9+
+- Hugo v0.150.0 (Extended) – install the Extended variant (see the [installation guide](https://gohugo.io/installation/))
+- Git
 
-### Using UV (Recommended)
+Verify your Hugo installation:
 
-UV is a fast Python package installer and resolver.
+```bash
+hugo version
+```
 
-#### Install UV (if you haven't already)
+Alternatively, download a release from the [Hugo releases page](https://github.com/gohugoio/hugo/releases) (choose the Extended build).
 
-* For macOS and Linux
+### Fork repository
 
-````shell
-curl -LsSf https://astral.sh/uv/install.sh | sh
-````
+[Fork this repository](https://github.com/chennaipy/website/fork) to your GitHub account.
 
-* For windows
+### Clone repository
 
-````shell
-powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
-````
+```bash
+git clone https://github.com/<your-username>/website.git
+cd website
+```
 
-#### Fork repo
+If you did not clone with submodules, initialize them:
 
-  [Fork](https://github.com/Chennaipy/website/fork) the repository to your account
-so that you have your copy of the website.
-
-While fork provide **chennaipy-website** as a repo name
-
-#### Clone repo
-
-````shell
-git clone --recursive https://github.com/<your-username>/chennaipy-website.git
-````
-  
-  This will clone the repository on to your system and clone the submodules inside
-it as well recursively. Additionally, the folder to which it will be cloned to
-is called `chennaipy-website`.
-
-#### Set up the project
-
-````shell
-cd chennaipy-website
-````
-
-````shell
+```bash
 git submodule update --init --recursive
-````
+```
 
-````shell
-uv venv
-````
+### Start the development server
 
-````shell
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-````
+```bash
+hugo server -D
+```
 
-#### Install the project with UV
+- Hot reload is enabled.
+- Default address: <http://localhost:1313>
+- Use a different port if needed: `hugo server --port 1314`
 
-````shell
-uv sync
-````
+### Visit local site
 
-#### Start the server
+Open <http://localhost:1313> in your browser.
 
-````shell
-uv run dev
-````
+## Project structure
 
-  Or specify a custom port:
+```text
+content/           # Markdown content (pages, events, meeting minutes, etc.)
+layouts/           # Custom layouts, partials, and shortcodes
+static/            # Static assets (images, CSS, JS)
+data/              # Structured data consumed by templates
+public/            # Generated site (created by `hugo`)
+themes/hextra/     # Hextra theme (git submodule)
+hugo.toml          # Hugo configuration
+```
 
-````shell
-uv run dev -p 3000
-````
+## Troubleshooting
 
-#### Visit local site
+- Theme not found or missing assets:
 
-  Open up your web browser and point it to [http://localhost:8000](http://localhost:8000) to see the site
-running locally.
+  ```bash
+  git submodule update --init --recursive
+  ```
+
+- Verify Hugo is the Extended build and accessible:
+
+  ```bash
+  hugo version
+  ```
+
+- Port 1313 is busy: `hugo server --port 1314`
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md)
+- See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines
+- Create a feature branch and test locally with `hugo server`
+- Open a Pull Request when ready
+
+## Links
+
+- Website: <https://chennaipy.org/>
+- Hugo docs: <https://gohugo.io/documentation/>
+- Hextra docs: <https://imfing.github.io/hextra/>
+
+## License
+
+This project is licensed under the terms described in `LICENSE`. Unless otherwise noted, content is available under a Creative Commons Attribution–ShareAlike license.

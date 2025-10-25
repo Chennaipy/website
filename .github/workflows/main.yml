@@ -1,55 +1,72 @@
-name: Convert and Publish with Pelican
-
+name: Build with Hugo
 
 on:
   push:
     branches:
-      - master
+      - main
+
   workflow_dispatch:
 
 permissions:
-  contents: write
-  id-token: write
+  contents: read
   pages: write
+  id-token: write
+
+# Allow one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.150.0
 
     steps:
-
       - name: Checkout Code
         uses: actions/checkout@v4
         with:
           submodules: true
+          fetch-depth: 0
 
-      - name: Update submodules
+      - name: Update Submodules
         run: git submodule update --init --recursive
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - name: Install Hugo
+        uses: peaceiris/actions-hugo@v2
         with:
-          python-version: '3.x'
+          hugo-version: ${{ env.HUGO_VERSION }}
+          extended: true
 
-      - name: Install Dependencies
-        run: |
-          pip install -r requirements.txt
-
-      - name: Build Site with Pelican
-        run: pelican content -o docs -s publishconf.py
-
-      - name: Create .nojekyll
-        run: touch docs/.nojekyll
-
-
-      - name: Configure GitHub Pages
+      - name: Setup Pages
+        id: pages
         uses: actions/configure-pages@v5
 
-      - name: Upload artifact
+      - name: Build with Hugo
+        env:
+          HUGO_BASEURL: ${{ steps.pages.outputs.base_url }}
+        run: |
+          hugo \
+            --minify \
+            --baseURL "$HUGO_BASEURL"
+
+      - name: Upload Artifact
+        if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
         with:
-          path: docs
+          path: ./public
 
+  deploy:
+    # Only run deploy on push to main branch, not on pull requests
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

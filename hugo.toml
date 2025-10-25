@@ -1,0 +1,101 @@
+baseURL = "https://chennaipy.org/"
+title = "Chennaipy"
+theme = "hextra"
+languageCode = "en"
+defaultContentLanguage = "en"
+# Hugo uses RFC3339; this keeps Asia/Kolkata timestamps aligned with legacy content.
+timeZone = "Asia/Kolkata"
+enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 10
+
+# Configure content sections
+[permalinks]
+  meetups = "/meetups/mom/:year/:month/:day/"
+
+# Configure taxonomies
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  year = "years"
+
+[params]
+  author = "Vijay Kumar B."
+  tagline = "Chennai Python User Group"
+  siteLicense = "Text is available under the Creative Commons Attribution-ShareAlike License. – Built with Hextra Theme for Hugo"
+  cover = "/images/vkottam.jpg"
+  logo = "/images/logo.png"
+  customCSS = "/css/custom.css"
+  description = "Chennai Python User Group"
+  externalLinkDecoration = true
+
+  [params.navbar]
+    displayTitle = false
+    displayLogo = true
+
+    [params.navbar.logo]
+      path = "/images/logo.png"
+      dark = "/images/logo.png"
+      width = 240
+      height = 240
+
+  [params.theme]
+    default = "system"
+    displayToggle = true
+
+  [params.footer]
+    enable = true
+    displayPoweredBy = false
+    
+  [params.search]
+    enable = true
+
+
+
+[[menu.main]]
+  name = "Meeting Minutes"
+  url = "/meetups/mom/"
+  weight = 2
+
+#[[menu.main]]
+#  name = "Events"
+#  url = "/events/"
+#  weight = 3
+
+
+[[menu.main]]
+  name = "Credits"
+  url = "/pages/credits/"
+  weight = 4
+
+[[menu.main]]
+  name = "Guidelines"
+  url = "#"
+  weight = 5
+
+[[menu.main]]
+  name = "Mailing List Guidelines"
+  url = "/pages/mailing-list-guidelines/"
+  parent = "Guidelines"
+  weight = 5.1
+
+#[[menu.main]]
+#  name = "WhatsApp CoC"
+#  url = "/pages/whatsapp-coc/"
+#   parent = "Guidelines"
+#  weight = 5.2
+
+[[menu.main]]
+  name = "Search"
+  url = "#"
+  weight = 6
+  params.type = "search"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+  [markup.highlight]
+    noClasses = false

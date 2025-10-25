@@ -1,0 +1,34 @@
+{{ define "main" }}
+  <div class='hx:mx-auto hx:flex hextra-max-page-width'>
+    {{ partial "sidebar.html" (dict "context" . "disableSidebar" false) }}
+    {{ partial "toc.html" . }}
+    <article class="hx:w-full hx:break-words hx:flex hx:min-h-[calc(100vh-var(--navbar-height))] hx:min-w-0 hx:justify-center hx:pb-8 hx:pr-[calc(env(safe-area-inset-right)-1.5rem)]">
+      <main class="hx:w-full hx:min-w-0 hx:max-w-6xl hx:px-6 hx:pt-4 hx:md:px-12">
+        {{ partial "breadcrumb.html" (dict "page" . "enable" false) }}
+        <br class="hx:mt-1.5 hx:text-sm" />
+        {{ if .Title }}<h1 class="hx:text-4xl hx:font-bold hx:tracking-tight hx:text-slate-900 hx:dark:text-slate-100">{{ .Title }}</h1>{{ end }}
+        
+        {{ if .Date }}
+          <p class="hx:text-sm hx:text-gray-600 hx:dark:text-gray-400 hx:mt-2">{{ .Date.Format "January 2, 2006" }}</p>
+        {{ end }}
+        
+        <div class="content hx:mt-6">
+          {{ .Content }}
+        </div>
+        
+        {{ if .Params.tags }}
+          <div class="hx:mt-8">
+            <h3 class="hx:text-lg hx:font-semibold hx:mb-2">Tags</h3>
+            <div class="hx:flex hx:flex-wrap hx:gap-2">
+              {{ range .Params.tags }}
+                <span class="hx:bg-gray-100 hx:dark:bg-gray-800 hx:px-2 hx:py-1 hx:rounded hx:text-sm">
+                  {{ . }}
+                </span>
+              {{ end }}
+            </div>
+          </div>
+        {{ end }}
+      </main>
+    </article>
+  </div>
+{{ end }}

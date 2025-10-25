@@ -1,81 +1,135 @@
-# Contributing to Chennaipy
+# Contributing to ChennaiPy
 
-Want to contribute to the Chennaipy website? Here is how to get started. Anyone
-reading this, if you feel this could use more detail, please let us know
+Thanks for your interest in contributing to the ChennaiPy website. This site is built with Hugo (Extended) and the Hextra theme.
 
-## Setting up the site for local development
+## Setup for local development
 
-See section on [Setup for local development](README.md#setup-for-local-development) in README
+Follow the steps in the README:
 
-## Issues
+- See [Setup for local development](README.md#setup-for-local-development)
+- Prerequisite: Hugo v0.150.0 (Extended) and Git
+- Start the dev server locally with:
 
-[This](https://github.com/Chennaipy/website/issues) is where all the issues and
-new requirements for the site are posted. This is a good place to start when you
-want to contribute.
+```bash
+hugo server -D
+```
 
-This is also where you can report issues yourself. If you find any issues with
-the website or have any new things to suggest, just open up an issue for it.
+Preview at <http://localhost:1313> (hot reload enabled).
 
-## Pull Requests
+## Workflow (Issues and Pull Requests)
 
-Once you have selected an Issue to solve, Go ahead and write the code for that
-in your fork **on a separate branch** and send in a Pull Request. For more info
-about Pull Requests, visit [this](https://help.github.com/articles/using-pull-requests/)
-link.
+1. Pick or open an Issue describing the change you plan to make.
+2. Fork the repo and create a feature branch in your fork.
+3. Make your changes and verify locally (`hugo server -D`).
+4. Commit and push your branch, then open a Pull Request.
 
-
-## Contributing MoM
-
-After the meetup if you want to contribute the Meeting minutes, please refer the below steps
-
-- Fork the website and run locally. For more details refer [here](README.md#setup-for-local-development)
-- Create MoM. refer this section to create file
-
+For more on Pull Requests, see GitHub docs: <https://help.github.com/articles/using-pull-requests/>
 
 ---
 
-## How to create Minutes of Meeting (MoM)
+## Contributing Minutes of Meeting (MoM)
 
-We are using pelican to generate the website. 
-When creating MoM file we need to follow few simple guidelines
+Meeting minutes live under `content/meeting_minutes/` organized by year.
 
-Meeting minutes files are placed under `content/meeting_minutes/`
+- Location: `content/meeting_minutes/<year>/`
+- File name: `YYYY-MM-mom.md`
 
-``File name : {yyyy}_{mm}_mom.md``
+### Front matter (required)
 
-The file content should start with **Title, Date and Tags**  are very importnat.\
-Find the **recommended format** for preparing Minutes of Meeting (MoM).\
-You may write it in **your own words and style**. \
-We **discourage the usage of Gen AI tool** to generate the MoM.
+Use Hugo front matter at the top of the file (YAML format):
 
-````md
-Title: April Meet Minutes
-Date: 2015-04-26 19:00
-Tags: Meeting Minutes
+```yaml
+---
+title: "April 2015 Meetup Minutes"
+date: 2015-04-26T19:00:00+05:30
+tags: ["Meeting Minutes"]
+summary: "Brief summary of the meetup (1–2 sentences)."
+---
+```
+
+- title: Clear and descriptive
+- date: Date/time of the meetup (with timezone preferred)
+- tags: Always include `Meeting Minutes` (you may add more if relevant)
+- summary: A one- or two-sentence overview (shown in lists/search)
+
+### Full file template (front matter + content)
+
+```markdown
+---
+title: "April 2015 Meetup Minutes"
+date: 2015-04-26T19:00:00+05:30
+tags: ["Meeting Minutes"]
+summary: "Brief summary of the meetup (1–2 sentences)."
+---
 
 ## Summary
-{summary goes here}
+A short summary of the meetup.
 
 ## Talk 1: {Talk Title}
-### Speaker: {Speaker name}
-
-{meeting minutes goes here for Talk 1}
+### Speaker: {Speaker Name}
+Details of talk 1.
 
 ## Talk 2: {Talk Title}
-### Speaker: {Speaker name}
-
-{meeting minutes goes here for Talk 2}
-
-## Talk 3: {Talk Title}
-### Speaker: {Speaker name}
-
-{meeting minutes goes here for Talk 3}
+### Speaker: {Speaker Name}
+Details of talk 2.
 
 ## Lightning Talks
-
-{lightning talks overview goes here}
+Highlights of lightning talks.
 
 Meeting minutes contributed by [your_name](your_preferred_link)
+```
 
-````
-We look forward to your contributions. Cheers!
+> You may write in your own words and style. We discourage the use of generative AI tools to produce MoM content.
+
+> Refer [this page](https://imfing.github.io/hextra/docs/guide/markdown/) for more about format and styles
+
+
+### Preview locally
+
+Run the site locally to ensure formatting, titles, dates, and links are correct:
+
+```bash
+hugo server -D
+```
+
+---
+
+## Add Upcoming Event
+
+The homepage shows an upcoming event using data from `data/upcoming_event.yaml`
+
+- Data file: `data/upcoming_event.yaml`
+
+
+### Fields
+
+- `title` (required): A short call-to-action followed by a hyphen and human-readable date/time. The text after ` - ` is displayed under the button.
+  - Example: `"Join our upcoming October meetup - Saturday, October 26, 2025 at 3:00 PM (IST)"`
+- `date` (required): Event date in `DD-MM-YYYY` format (zero‑padded day and month). Used to automatically hide the button on/after the event date.
+  - Example: `"26-10-2025"`
+- `venue` (optional): Venue name.
+- `venue_link` (optional): A Google Maps URL or venue page.
+- `link` (required): The full URL to the Meetup event.
+
+> Ensure `date` uses leading zeros (e.g., `05-09-2025`, not `5-9-2025`).
+
+### Example
+
+```yaml
+upcoming:
+  title: "Join our upcoming October meetup - Saturday, October 26, 2025 at 3:00 PM (IST)"
+  date: "26-10-2025"
+  venue: "The Institute of Mathematical Sciences (IMSc), Chennai"
+  venue_link: "https://maps.app.goo.gl/koek7CfmSa95Adbm8"
+  link: "https://www.meetup.com/chennaipy/events/311517051/"
+```
+
+### Behavior
+
+- Before the event date: shows a button linking to the Meetup event, plus the formatted date/time and venue.
+- After the event date: the upcoming-event button is hidden and a general "Join Our Meetup" link is shown instead.
+---
+
+## Other content changes
+
+For other content changes, follow the same process: update the relevant Markdown files or data files, then preview and test your changes locally.

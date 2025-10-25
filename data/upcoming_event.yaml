@@ -1,0 +1,11 @@
+upcoming:
+  # Text that visibly shows on the homepage
+  title: "Join our upcoming October meetup - Saturday, October 26, 2025 at 3:00 PM (IST)"
+  # Date format: DD-MM-YYYY
+  date: "26-10-2025"
+  # Venue name
+  venue: "The Institute of Mathematical Sciences (IMSc), Chennai"
+  # Venue Google Maps link
+  venue_link: "https://maps.app.goo.gl/koek7CfmSa95Adbm8"
+  # Meetup event link
+  link: "https://www.meetup.com/chennaipy/events/311517051/"
