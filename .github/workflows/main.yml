@@ -5,6 +5,11 @@ on:
     branches:
       - master
 
+  pull_request:
+    types: [closed]
+    branches:
+      - master
+
   workflow_dispatch:
 
 permissions:
@@ -58,8 +63,8 @@ jobs:
           path: ./public
 
   deploy:
-    # Run deploy on push to main branch or manual workflow dispatch
-    if: (github.event_name == 'push' && github.ref == 'refs/heads/main') || github.event_name == 'workflow_dispatch'
+    # Run deploy on push to master, manual workflow dispatch, or merged PRs to master
+    if: (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'workflow_dispatch' || (github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == true && github.event.pull_request.base.ref == 'master')
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

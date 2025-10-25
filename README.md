@@ -1,6 +1,6 @@
-# ChennaiPy Website
+# Chennaipy Website
 
-Static website for the Chennai Python User Group (ChennaiPy), built with the Hugo static site generator and the Hextra theme.
+Static website for the Chennai Python User Group (Chennaipy), built with the Hugo static site generator and the Hextra theme.
 
 ## Find us
 

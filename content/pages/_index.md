@@ -5,11 +5,11 @@ layout: docs
 
 # Documentation
 
-Welcome to the ChennaiPy documentation. Here you'll find guides, tutorials, and resources for the Chennai Python User Group.
+Welcome to the Chennaipy documentation. Here you'll find guides, tutorials, and resources for the Chennai Python User Group.
 
 ## About Us
 
-- [About](/docs/about/) - Learn about the ChennaiPy community
+- [About](/docs/about/) - Learn about the Chennaipy community
 - [Team](/docs/team/) - Meet our volunteers and organizers
 - [Credits](/docs/credits/) - Acknowledgments and credits
 

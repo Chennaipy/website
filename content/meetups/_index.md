@@ -1,16 +1,16 @@
 ---
 title: "Meetups"
-description: "ChennaiPy meetups, events, and community activities"
+description: "Chennaipy meetups, events, and community activities"
 layout: "list"
 ---
 
-# ChennaiPy Meetups
+# Chennaipy Meetups
 
-Welcome to the ChennaiPy meetups section! Here you'll find everything related to our community gatherings, events, and activities.
+Welcome to the Chennaipy meetups section! Here you'll find everything related to our community gatherings, events, and activities.
 
 ## What We Do
 
-ChennaiPy is Chennai's Python User Group, bringing together Python enthusiasts, developers, and learners from across the city. Our meetups are a place to:
+Chennaipy is Chennai's Python User Group, bringing together Python enthusiasts, developers, and learners from across the city. Our meetups are a place to:
 
 - **Learn**: Discover new Python libraries, frameworks, and best practices
 - **Share**: Present your projects, experiences, and insights with the community

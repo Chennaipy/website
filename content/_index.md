@@ -1,5 +1,5 @@
 ---
-title: ChennaiPy
+title: Chennaipy
 layout: hextra-home
 ---
 

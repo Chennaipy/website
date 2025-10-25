@@ -1,6 +1,6 @@
-# Contributing to ChennaiPy
+# Contributing to Chennaipy
 
-Thanks for your interest in contributing to the ChennaiPy website. This site is built with Hugo (Extended) and the Hextra theme.
+Thanks for your interest in contributing to the Chennaipy website. This site is built with Hugo (Extended) and the Hextra theme.
 
 ## Setup for local development
 

@@ -9,8 +9,8 @@ aliases:
 
 ## The mailing list
 
-Our mailing list, found on the [ChennaiPy mailing list page](https://mail.python.org/mailman/listinfo/chennaipy) is where all the
-communication related to ChennaiPy happens.
+Our mailing list, found on the [Chennaipy mailing list page](https://mail.python.org/mailman/listinfo/chennaipy) is where all the
+communication related to Chennaipy happens.
 
 For those who are new to mailing lists, it is a common way for everyone in the
 group to communicate. A mail that is sent to the mailing list is sent to everyone
@@ -34,6 +34,6 @@ I would recommend everyone to go through that presentation before posting to the
 mailing list. If you have any questions about it, please post it in the list
 itself :)
 
-At ChennaiPy, we are not very stringent on these practices but it is something
+At Chennaipy, we are not very stringent on these practices but it is something
 that is good to cultivate as we become better developers since almost all of the
 major projects use them as their main line of communication.

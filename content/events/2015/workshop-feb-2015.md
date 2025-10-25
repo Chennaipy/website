@@ -2,7 +2,7 @@
 title: "February Workshop"
 date: 2015-02-17T23:14:00+05:30
 tags: ["Events", "Workshops"]
-summary: "February 2015 ChennaiPy beginner's Python workshop."
+summary: "February 2015 Chennaipy beginner's Python workshop."
 ---
 
 <a style="float:right;" class="pure-button"

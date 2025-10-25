@@ -5,4 +5,4 @@ sidebar:
   open: false
 ---
 
-Meeting minutes and updates from ChennaiPy meetups held in 2020.
+Meeting minutes and updates from Chennaipy meetups held in 2020.
