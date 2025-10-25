@@ -3,6 +3,7 @@ cache/
 output/
 public/
 *.pid
+.hugo_build.lock
 
 ### UV and Python environments ###
 .venv/
