@@ -1,5 +1,5 @@
 ---
-title: "Meeting Minutes & Blog"
+title: "Meeting Minutes"
 layout: "list"
 description: "Meeting minutes from ChennaiPy meetups and community blog posts"
 sidebar:
