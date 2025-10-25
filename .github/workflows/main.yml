@@ -1,10 +1,6 @@
 name: Build with Hugo
 
 on:
-  push:
-    branches:
-      - master
-
   pull_request:
     types: [closed]
     branches:
@@ -57,14 +53,13 @@ jobs:
             --baseURL "$HUGO_BASEURL"
 
       - name: Upload Artifact
-        if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
 
   deploy:
-    # Run deploy on push to master, manual workflow dispatch, or merged PRs to master
-    if: (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'workflow_dispatch' || (github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == true && github.event.pull_request.base.ref == 'master')
+    # Run deploy when PR is merged or manually triggered
+    if: github.event.pull_request.merged == true || github.event_name == 'workflow_dispatch'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
