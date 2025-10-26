@@ -1,11 +1,9 @@
 name: Build with Hugo
 
 on:
-  pull_request:
-    types: [closed]
+  push:
     branches:
       - master
-
   workflow_dispatch:
 
 permissions:
@@ -58,8 +56,6 @@ jobs:
           path: ./public
 
   deploy:
-    # Run deploy when PR is merged or manually triggered
-    if: github.event.pull_request.merged == true || github.event_name == 'workflow_dispatch'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
