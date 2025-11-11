@@ -103,11 +103,12 @@ The homepage shows an upcoming event using data from `data/upcoming_event.yaml`
 
 ### Fields
 
-- `title` (required): A short call-to-action followed by a hyphen and human-readable date/time. The text after ` - ` is displayed under the button.
-  - Example: `"Join our upcoming October meetup - Saturday, October 26, 2025 at 3:00 PM (IST)"`
+- `title` (required): A short call-to-action.
+  - Example: `"Join our upcoming October meetup"`
 - `date` (required): Event date in `DD-MM-YYYY` format (zero‑padded day and month). Used to automatically hide the button on/after the event date.
   - Example: `"26-10-2025"`
 - `venue` (optional): Venue name.
+- `venue_details` (optional): Venue details like Room name and Floor.
 - `venue_link` (optional): A Google Maps URL or venue page.
 - `link` (required): The full URL to the Meetup event.
 
