@@ -45,17 +45,31 @@
            font-weight: 500;
            transition: background-color 0.2s ease;
            margin-bottom: 0.75rem;">
-        Join our upcoming October Meetup
+        {{ $event.title }}
       </a>
       
-      {{/* Extract date information from title for display */}}
-      {{ $titleParts := split $event.title " - " }}
-      {{ if gt (len $titleParts) 1 }}
+      {{/* Parse and format the date from DD-MM-YYYY to readable format */}}
+      {{ if $event.date }}
+        {{ $dateParts := split $event.date "-" }}
+        {{ $day := index $dateParts 0 }}
+        {{ $month := index $dateParts 1 }}
+        {{ $year := index $dateParts 2 }}
+        
+        {{/* Create a proper date for formatting */}}
+        {{ $dateStr := printf "%s-%s-%s" $year $month $day }}
+        {{ $parsedDate := time $dateStr }}
+        
         <div style="margin-top: 0.75rem; font-size: 0.95rem; color: #333;">
-          {{ $dateTimeStr := index $titleParts 1 }}
           <p style="margin: 0; display: inline-flex; align-items: center; gap: 0.5rem;">
-            &#x1F4C5; {{ $dateTimeStr }}
+            &#x1F4C5; {{ $parsedDate.Format "Monday, January 2, 2006" }} at 3:00 PM (IST)
           </p>
+        </div>
+      {{ end }}
+      
+      {{/* Display venue details if available */}}
+      {{ if and $event.venue_details (ne $event.venue_details "") }}
+        <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #666; text-align: center;">
+          &#x1F3E2; {{ $event.venue_details }}
         </div>
       {{ end }}
       
