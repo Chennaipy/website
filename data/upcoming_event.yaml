@@ -4,10 +4,10 @@ upcoming:
   # Date format: DD-MM-YYYY
   date: "22-11-2025"
   # Venue name The Institute of Mathematical Sciences (IMSc), Chennai
-  venue: "TBA"
+  venue: "The Institute of Mathematical Sciences (IMSc), Chennai"
   #venue_details: "Alladi Ramakrishnan Hall"
-  venue_details: ""
+  venue_details: "Alladi Ramakrishnan Hall"
   # Venue Google Maps link (IMSc - https://maps.app.goo.gl/koek7CfmSa95Adbm8)
-  venue_link: ""
+  venue_link: "https://maps.app.goo.gl/koek7CfmSa95Adbm8"
   # Meetup event link
   link: "https://www.meetup.com/chennaipy/events/311940593/"
