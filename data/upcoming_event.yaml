@@ -1,13 +1,13 @@
 upcoming:
   # Text that visibly shows on the homepage
-  title: "Join our upcoming January Meetup"
+  title: "Join our upcoming February Meetup"
   # Date format: DD-MM-YYYY
   date: "28-02-2026"
   # Venue name 
   venue: "To be Decided"
   #venue_details: "Alladi Ramakrishnan Hall"
-  venue_details: "To be Decided"
+  venue_details: "Zilogic Systems Pvt Ltd, Ragula Tech park"
   # Venue Google Maps link 
-  venue_link: "To be Decided"
+  venue_link: "https://maps.app.goo.gl/HGswN5kPjEFMBD7f9"
   # Meetup event link
   link: "https://www.meetup.com/chennaipy/events/313275145"
