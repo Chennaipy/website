@@ -45,4 +45,20 @@ layout: hextra-home
     class="hx:aspect-auto hx:min-h-[200px] hx:sm:min-h-[220px]"
   >}}
 {{< /hextra/feature-grid >}}
----
+
+<div style="align-self: stretch; text-align: center; margin-top: 2rem; margin-bottom: 2rem;">
+  <a href="https://forms.gle/Z7M6p3Y2khJ8VhDB8"
+     target="_blank"
+     rel="noopener noreferrer"
+     style="
+       display: inline-block;
+       padding: 0.75rem 1.5rem;
+       background-color: #0066cc;
+       color: white;
+       text-decoration: none;
+       border-radius: 0.5rem;
+       font-weight: 500;
+       transition: background-color 0.2s ease;">
+    Become a Volunteer
+  </a>
+</div>
