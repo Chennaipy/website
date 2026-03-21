@@ -3,10 +3,10 @@ upcoming:
   title: "Join our upcoming March Meetup"
   # Date format: DD-MM-YYYY
   date: "28-03-2026"
-  # Venue name 
-  venue: "The Institute of Mathematical Sciences (IMSc), Alladi Ramakrishnan hall"
-  #venue_details: "Alladi Ramakrishnan Hall"
-  venue_details: "IV Cross Road, CIT Campus, Taramani, Chennai 600113,Tamil Nadu, India."
+  # Venue Name and Address (optional)
+  venue: "The Institute of Mathematical Sciences (IMSc), Alladi Ramakrishnan hall,IV Cross Road, CIT Campus, Taramani, Chennai 600113,Tamil Nadu, India."
+  #venue_details: "Alladi Ramakrishnan Hall"  
+  venue_details: "Alladi Ramakrishnan Hall"
   # Venue Google Maps link 
   venue_link: "https://maps.app.goo.gl/koek7CfmSa95Adbm8"
   # Meetup event link
