@@ -21,7 +21,6 @@ enableRobotsTXT = true
   year = "years"
 
 [params]
-  author = "Vijay Kumar B."
   tagline = "Chennai Python User Group"
   siteLicense = "Text is available under the Creative Commons Attribution-ShareAlike License. – Built with Hextra Theme for Hugo"
   cover = "/images/vkottam.jpg"
@@ -29,6 +28,10 @@ enableRobotsTXT = true
   customCSS = "/css/custom.css"
   description = "Chennai Python User Group"
   externalLinkDecoration = true
+
+  [params.author]
+    name = "Vijay Kumar B."
+    email = ""
 
   [params.navbar]
     displayTitle = false
