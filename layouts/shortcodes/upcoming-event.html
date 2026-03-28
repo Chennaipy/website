@@ -58,34 +58,39 @@
         {{/* Create a proper date for formatting */}}
         {{ $dateStr := printf "%s-%s-%s" $year $month $day }}
         {{ $parsedDate := time $dateStr }}
-        
+        {{ $calendarIcon := partial "utils/icon.html" (dict "name" "calendar"
+          "attributes" `height="1.15em" width="1.15em" class="hx:inline-block hx:shrink-0" aria-hidden="true"`) }}
         <div style="margin-top: 0.75rem; font-size: 0.95rem; color: #333;">
           <p style="margin: 0; display: inline-flex; align-items: center; gap: 0.5rem;">
-            &#x1F4C5; {{ $parsedDate.Format "Monday, January 2, 2006" }} at 3:00 PM (IST)
+            {{ $calendarIcon }}{{ $parsedDate.Format "Monday, January 2, 2006" }} at 3:00 PM (IST)
           </p>
         </div>
       {{ end }}
       
       {{/* Display venue details if available */}}
       {{ if and $event.venue_details (ne $event.venue_details "") }}
-        <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #666; text-align: center;">
-          &#x1F3E2; {{ $event.venue_details }}
+        {{ $buildingIcon := partial "utils/icon.html" (dict "name" "office-building"
+          "attributes" `height="1.15em" width="1.15em" class="hx:inline-block hx:shrink-0" aria-hidden="true"`) }}
+        <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #333; text-align: center;">
+          {{ $buildingIcon }} {{ $event.venue_details }}
         </div>
       {{ end }}
       
       {{/* Display venue information if available */}}
       {{ if and $event.venue (ne $event.venue "") }}
+        {{ $mapIcon := partial "utils/icon.html" (dict "name" "map"
+          "attributes" `height="1.15em" width="1.15em" class="hx:inline-block hx:shrink-0" aria-hidden="true"`) }}
         <div style="margin-top: 0.5rem; font-size: 0.95rem; color: #555;">
           {{ if and $event.venue_link (ne $event.venue_link "") }}
             <a href="{{ $event.venue_link }}" 
                target="_blank" 
                rel="noopener noreferrer"
                style="color: #0066cc; text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem;">
-              &#x1F4CD; {{ $event.venue }}
+              {{ $mapIcon }}{{ $event.venue }}
             </a>
           {{ else }}
             <p style="margin: 0; display: inline-flex; align-items: center; gap: 0.5rem;">
-              &#x1F4CD; {{ $event.venue }}
+              {{ $mapIcon }}{{ $event.venue }}
             </p>
           {{ end }}
         </div>
