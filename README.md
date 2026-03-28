@@ -13,7 +13,12 @@ Static website for the Chennai Python User Group (Chennaipy), built with the Hug
 ### Prerequisites
 
 - Hugo v0.150.0 (Extended) – install the Extended variant (see the [installation guide](https://gohugo.io/installation/))
+```bash
+CGO_ENABLED=1 go install -tags extended,withdeploy github.com/gohugoio/hugo@v0.150.0
+```
 - Git
+
+
 
 Verify your Hugo installation:
 
