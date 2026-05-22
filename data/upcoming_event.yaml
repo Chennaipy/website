@@ -1,13 +1,13 @@
 upcoming:
   # Text that visibly shows on the homepage
-  title: "Join our upcoming April Meetup"
+  title: "Join our upcoming May Meetup"
   # Date format: DD-MM-YYYY
-  date: "25-04-2026"
+  date: "23-05-2026"
   # Venue Name and Address (optional)
-  venue: "The Institute of Mathematical Sciences (IMSc), Alladi Ramakrishnan hall,IV Cross Road, CIT Campus, Taramani, Chennai 600113,Tamil Nadu, India."
+  venue: "Zilogic Systems Pvt. Ltd, 2nd Floor, Ragula Tech Park, Type I, I/16, Dr. VSI Estate (Phase 1, Thiruvanmiyur, Chennai, Tamil Nadu 600041."
   #venue_details: "Alladi Ramakrishnan Hall"  
-  venue_details: "Alladi Ramakrishnan Hall"
+  venue_details: "Zilogic Systems Pvt. Ltd"
   # Venue Google Maps link 
-  venue_link: "https://maps.app.goo.gl/koek7CfmSa95Adbm8"
+  venue_link: "https://maps.app.goo.gl/t8iZa99b9VJ9NiYRA"
   # Meetup event link
-  link: "https://www.meetup.com/chennaipy/events/314258528"
+  link: "https://www.meetup.com/chennaipy/events/314710910"
